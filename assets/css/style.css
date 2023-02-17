@@ -1,3 +1,26 @@
-.footer-icons {
-    background-color: Pink;
+
+header {
+    background-color: #fcf8cf;
+    padding: 5%;
+}
+
+.container-footer {
+    background-color: #cfb3ab;
+    padding: 4%;
+    height: 15%;
+}
+
+.social-networks  {
+    text-align: center;
+}
+
+.social-networks li{
+    display: inline;
+} 
+
+.social-networks i {
+    font-size:170%;
+    margin: 1%;
+    padding: 0%;
+    color: #035746;
 }
