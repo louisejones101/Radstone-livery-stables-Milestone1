@@ -1,11 +1,23 @@
+* {
+color: #035746;
+}
+
 
 header {
     background-color: #fcf8cf;
     padding: 5%;
 }
 
+.logo a:link {
+    text-decoration: none;
+}
+
+.logo h2 {
+    color:#ac8980;
+}
+
 .container-footer {
-    background-color: #cfb3ab;
+    background-color: #caa59b;
     padding: 4%;
     height: 15%;
 }
