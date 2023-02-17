@@ -1,19 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@300;400&family=Libre+Baskerville&family=Oswald&display=swap');
+
 * {
 color: #035746;
+font-family: libre-baskerville;
 }
 
 
 header {
     background-color: #fcf8cf;
-    padding: 5%;
+    padding: 2%;
 }
 
 .logo a:link {
     text-decoration: none;
 }
 
+.logo h1 {
+    font-family: abril-fatface;
+    font-size: 400%;
+    padding: 0%;
+    margin:0%;
+}
+
 .logo h2 {
     color:#ac8980;
+    font-family: oswald;
+    padding: 0%;
+    margin:0%;
+    text-align: center;
 }
 
 .container-footer-1 {
