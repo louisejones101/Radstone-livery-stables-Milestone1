@@ -2,7 +2,7 @@
 
 * {
 color: #035746;
-font-family: libre-baskerville;
+font-family: libre-baskerville, sans-serif;
 }
 
 
@@ -16,7 +16,7 @@ header {
 }
 
 .logo h1 {
-    font-family: abril-fatface;
+    font-family: abril-fatface, sans-serif;
     font-size: 400%;
     padding: 0%;
     margin:0%;
@@ -24,7 +24,8 @@ header {
 
 .logo h2 {
     color:#ac8980;
-    font-family: oswald;
+    font-family: oswald, sans-serif;
+    font-weight:300;
     padding: 0%;
     margin:0%;
     text-align: center;
