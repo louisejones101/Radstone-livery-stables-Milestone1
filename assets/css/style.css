@@ -5,6 +5,10 @@ color: #035746;
 font-family: libre-baskerville, sans-serif;
 }
 
+body{
+    height:100vh;
+}
+
 /* header section */
 
 header {
@@ -33,6 +37,19 @@ header {
     margin:0%;
     text-align: center;
 }
+
+/*main image on frontpage*/
+
+
+
+.hero-image {
+    padding:0;
+}
+
+/*#hero-image{
+    max-width:100%;
+    max-height: auto;
+}*/
 
 /* footer section */
 
