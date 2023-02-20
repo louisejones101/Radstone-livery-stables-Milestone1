@@ -38,6 +38,18 @@ header {
     text-align: center;
 }
 
+/*Justify the navbar nav to right*/
+
+.navbar-collapse{
+justify-content: right;
+}
+
+#navbarNavDropdown {
+    display: flex;
+    justify-content: right;  
+}
+
+
 /*main image on frontpage*/
 
 
@@ -46,10 +58,6 @@ header {
     padding:0;
 }
 
-/*#hero-image{
-    max-width:100%;
-    max-height: auto;
-}*/
 
 /* footer section */
 
@@ -102,3 +110,15 @@ ul.social-networks {
 
 }
 
+@media screen and (max-width: 576px) {
+
+    .logo h1 {
+        font-size: 2rem;
+    }
+
+    .logo h2 {
+        font-size: 1rem;
+    }
+    
+
+}
