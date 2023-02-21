@@ -1,14 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@300;400&family=Libre+Baskerville&family=Oswald&display=swap');
 
-* {
-color: #035746;
-font-family: libre-baskerville, sans-serif;
-}
+
 
 body{
+    color: #035746;
+    font-family: libre-baskerville, sans-serif;
     height:100vh;
 }
 
+h2, h3 {
+    color:#22292f;
+}
+
+.btn {
+    background-color: #035746;
+    border-radius: 10px;
+    color: white;
+    padding: 1% 2% 1% 2%;
+    text-align: center;
+    text-decoration: none;
+
+    font-size: 16px;
+    hover-color:
+  }
 /* header section */
 
 header {
@@ -26,6 +40,7 @@ header {
     font-size: 3.5rem;
     padding: 0%;
     margin:0%;
+    color: #035746;
 }
 
 .logo h2 {
@@ -44,10 +59,11 @@ header {
 justify-content: right;
 }
 
-#navbarNavDropdown {
+.navbar-toggler {
     display: flex;
     justify-content: right;  
 }
+
 
 
 /*main image on frontpage*/
@@ -56,6 +72,35 @@ justify-content: right;
 
 .hero-image {
     padding:0;
+}
+
+/* About Section */
+
+.about-text {
+    text-align: center;
+    padding: 5%;
+}
+
+/*services section front page */
+
+.services-column {
+    padding:4%;
+}
+
+.services h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+    
+
+.services-row li {
+    list-style-type: none;
+    text-align: left;
+}
+
+.container-services {
+    background-color: #03574680;
+    
 }
 
 
@@ -94,8 +139,83 @@ ul.social-networks {
 .social-networks i {
     font-size:170%; 
     padding: 2%;
+    color: #22292f;
+}
+
+
+/* facilities page */
+
+/* facilities section 1 */
+
+.facilities img {
+    padding: 10%;
+    
+}
+
+.facilities h2 {
+    padding-top: 5%;
+    padding-bottom: 0; 
+}
+
+.facilities > h3 > p {
+    text-align: center;
     color: #035746;
 }
+
+/* Facilities */
+
+.livery {
+    background-color: #fcf8cf;
+}
+
+.livery h2 {
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+.livery > h3 {
+    text-align: center;
+    padding-bottom: 3%;
+    
+}
+
+.livery > p {
+    text-align: center;
+    padding-bottom: 3%;
+    
+}
+
+.card {
+    background-color: #03574680;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.card-body>h3 {
+    color:#22292f;
+    padding: 7%;
+    text-align: center;
+}
+
+.card-body > p {
+    color: #ffffff;
+}
+
+.card-body i {
+    color: #fcf8cf;
+}
+
+
+.livery .row-2 {
+    padding-top: 0;
+    padding-bottom: 10%;
+}
+
+
+
+
+
+
+
 
 @media screen and (max-width: 750px) {
 
