@@ -14,15 +14,22 @@ h2, h3 {
 
 .btn {
     background-color: #035746;
-    border-radius: 10px;
     color: white;
-    padding: 1% 2% 1% 2%;
-    text-align: center;
-    text-decoration: none;
-
+    border-radius: 10px;
     font-size: 16px;
-    hover-color:
+    padding: 1% 2% 1% 2%; 
   }
+
+  .btn:hover {
+    background-color: #03574682;
+  }
+
+  .rov {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+
 /* header section */
 
 header {
@@ -187,7 +194,7 @@ ul.social-networks {
 
 .card {
     background-color: #03574680;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 5px 15px 0 #17171786, 0 5px 20px 0 #17171739;
 }
 
 .card-body>h3 {
@@ -209,6 +216,7 @@ ul.social-networks {
     padding-top: 0;
     padding-bottom: 10%;
 }
+
 
 
 
