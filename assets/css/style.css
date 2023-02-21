@@ -171,16 +171,34 @@ ul.social-networks {
 
 /* facilities page */
 
-/* facilities section 1 */
+/* facilities section-1 */
+/*
+.facilities {
+    background-color: #caa59b;
+}
+*/
 
 .facilities img {
-    padding: 10%;
+    border-radius: 30%;
+    border: 2px solid #22292f;
     
 }
 
+.image-shape {
+    border-radius: 30%;
+} 
+
+  
 .facilities h2 {
     padding-top: 5%;
-    padding-bottom: 0; 
+    padding-bottom: 2%; 
+}
+
+
+.facilities h3 {
+    padding-top: 5%;
+    padding-bottom: 3%; 
+    margin-top: 1rem;
 }
 
 .facilities > h3 > p {
@@ -188,7 +206,7 @@ ul.social-networks {
     color: #035746;
 }
 
-/* Facilities */
+/* livery section on the facilities page */
 
 .livery {
     background-color: #fcf8cf;
