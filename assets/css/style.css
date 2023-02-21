@@ -4,6 +4,8 @@
 body{
     color: #035746;
     font-family: libre-baskerville, sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
     height:100vh;
     width: 100vw;
     padding:0;
@@ -144,7 +146,7 @@ justify-content: right;
 }
 
 .container-footer-2 p {
-    color: #fcf8cf;
+    color: #ffffff;
     padding-bottom: 0%;
     margin: 0%;
 }
@@ -178,20 +180,26 @@ ul.social-networks {
 }
 */
 
-.facilities img {
-    border-radius: 30%;
-    border: 2px solid #22292f;
-    
+.stables-image {
+    padding: 5%;
 }
 
-.image-shape {
-    border-radius: 30%;
-} 
+.stables-text {
+    padding: 5% 5% 5% 0;
+}
 
-  
+.stables-text p{
+    font-size: 0.75rem;
+    padding: 3%;
+    margin:0%;
+}
+
+.stables-text h2{
+    padding: 5%
+}
+ 
 .facilities h2 {
-    padding-top: 5%;
-    padding-bottom: 2%; 
+    padding: 5%;
 }
 
 
@@ -201,20 +209,20 @@ ul.social-networks {
     margin-top: 1rem;
 }
 
-.facilities > h3 > p {
+.facilities p {
     text-align: center;
     color: #035746;
+    padding: 5%;
 }
 
 /* livery section on the facilities page */
 
 .livery {
-    background-color: #fcf8cf;
+    background-color: #fcf8cfa0;
 }
 
 .livery h2 {
-    padding-top: 5%;
-    padding-bottom: 3%;
+    padding: 5%;
 }
 
 .livery > h3 {
@@ -240,12 +248,13 @@ ul.social-networks {
     text-align: center;
 }
 
-.card-body > p {
-    color: #ffffff;
-}
-
 .card-body i {
     color: #fcf8cf;
+    position: center;
+}
+
+.card-body p {
+    text-align: right;
 }
 
 
