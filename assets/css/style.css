@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@300;400&family=Libre+Baskerville&family=Oswald&display=swap');
 
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
 
 body{
     color: #035746;
@@ -7,7 +12,8 @@ body{
     font-weight: 300;
     font-size: 18px;
     height:100vh;
-    width: 100vw;
+    max-width: 100vw;
+    
 }
 
 h2, h3 {
@@ -95,26 +101,20 @@ justify-content: right;
 
 .hero-image {
     padding:0;
-    overflow:hidden;
+    
 }
 
 /* About Section */
 
-.about img {
-    max-width: 100%;
-    
+.about-text {
+    padding: 5%;
+    text-align: center;
 }
 
-.about-text {
-    text-align: left;
+
+.about-img {
     padding: 5%;
 }
-
-
-
-
-
-
 
 
 /*services section front page */
@@ -141,14 +141,20 @@ justify-content: right;
 
 /* facilities section front page */
 
+.facilities-img {
+    padding: 5%;
+}
 
 .facilities-section h2 {
-    padding-top: 5%;
     padding-bottom: 3%;
 }
 
 .facilities-section button {
     margin-top: 1rem;
+}
+
+.facilities-section-padding {
+    padding: 5%;
 }
 
 
@@ -203,15 +209,15 @@ ul.social-networks {
 }
 */
 
+
 .stables-img {
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding: 5%;
 }
 
 .stables-text {
-    font-size: 18px;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    text-align: left;
+    padding: 5%;
+    text-align: justify;
 }
 
 .title-caps {
@@ -228,6 +234,10 @@ ul.social-networks {
 .stables-text ul {
     padding-left: 1rem;
 
+}
+
+.facilities-row {
+    padding: 5%;
 }
  
 
@@ -262,6 +272,11 @@ ul.social-networks {
 .card {
     background-color: #03574680;
     box-shadow: 0 5px 15px 0 #17171786, 0 5px 20px 0 #17171739;
+}
+
+.card-padding {
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .card-body>h3 {
