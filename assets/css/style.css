@@ -87,9 +87,15 @@ justify-content: right;
 
 .hero-image {
     padding:0;
+    overflow:hidden;
 }
 
 /* About Section */
+
+.about img {
+    max-width: 100%;
+    
+}
 
 .about-text {
     text-align: center;
