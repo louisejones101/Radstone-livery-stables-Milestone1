@@ -64,7 +64,7 @@ header {
     text-align: center;
 }
 
-/*Justify the navbar nav to right*/
+/* navigation menu*/
 
 .navbar-collapse{
 justify-content: right;
@@ -77,6 +77,10 @@ justify-content: right;
 
 .nav-link {
     color: #22292f
+}
+
+.navbar-nav .active {
+    border-bottom: 2px solid #035746;
 }
 
 
