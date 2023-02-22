@@ -8,15 +8,17 @@ body{
     font-size: 18px;
     height:100vh;
     width: 100vw;
-    padding:0;
-    margin: 0;
 }
 
 h2, h3 {
     color:#22292f;
-    Font-family: Oswald;
+    Font-family: lato;
+    font-weight: 400;
 }
 
+h2 {
+    font-size: 45px;
+}
 
 .btn {
     background-color: #035746;
@@ -30,7 +32,7 @@ h2, h3 {
     background-color: #03574682;
 }
 
-.row {
+/* .row {
     margin-right: 0;
     margin-left: 0;
 }
@@ -201,18 +203,15 @@ ul.social-networks {
 }
 */
 
-.stables-image {
-    padding: 5%;
-}
-
-.stables-text {
-    padding: 5% 5% 5% 0;
+.stables-img {
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .stables-text {
     font-size: 18px;
-    padding: 5%;
-    margin:0%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .title-caps {
@@ -293,7 +292,7 @@ ul.social-networks {
 
 
 
-
+/*
 @media screen and (max-width: 750px) {
 
     .logo h1 {
@@ -319,7 +318,7 @@ ul.social-networks {
         font-size: 1rem;
     }
 
-
-    
-
 }
+  */  
+
+
