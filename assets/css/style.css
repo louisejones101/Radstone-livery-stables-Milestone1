@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@300;400&family=Libre+Baskerville&family=Oswald&display=swap');
 
-*{
+/* * {
     margin:0;
     padding:0;
     border:0;
-}
+} */
 
 body{
     color: #035746;
@@ -13,7 +13,6 @@ body{
     font-size: 18px;
     max-width: 1200px;
     margin: 0 auto;
-    
 }
 
 h2, h3 {
@@ -36,11 +35,6 @@ h2 {
 
 .btn:hover {
     background-color: #03574682;
-}
-
-/* .row {
-    margin-right: 0;
-    margin-left: 0;
 }
 
 
@@ -113,27 +107,28 @@ justify-content: right;
     text-align: center;
 }
 
-
 .about-img {
-    padding: 5%;
+    padding-left: 5%;
+    padding-top: 5%; 
+}
+
+.title-caps {
+    font-size: 1rem;
+    padding: 0;
+    margin-bottom:1rem;
 }
 
 
 /*services section front page */
 
-.services-column {
-    padding:4%;
-}
-
-.services h2 {
+.services-heading {
+    padding-top: 2%;
+    padding-bottom:2%;
     text-align: center;
-    margin-bottom: 1em;
 }
-    
 
-.services-row li {
-    list-style-type: none;
-    text-align: left;
+.services-row p {
+    text-align: center;
 }
 
 .container-services {
@@ -144,7 +139,8 @@ justify-content: right;
 /* facilities section front page */
 
 .facilities-img {
-    padding: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
 }
 
 .facilities-section h2 {
@@ -220,12 +216,6 @@ ul.social-networks {
     text-align: left;
     padding: 5%;
     text-align: justify;
-}
-
-.title-caps {
-    font-size: 0.75rem;
-    padding: 0;
-    margin-bottom:1rem;
 }
 
 .stables-text h2{
@@ -309,8 +299,26 @@ ul.social-networks {
 
 
 
-/*
+
 @media screen and (max-width: 750px) {
+    
+.facilities-img {
+  padding: 0;  
+}
+
+/*
+    .logo h1 {
+        font-size: 2.5rem;
+    }
+
+    .logo h2 {
+        font-size: 1.2rem;
+    }   
+
+}
+*/
+
+@media screen and (max-width: 576px) {
 
     .logo h1 {
         font-size: 2.5rem;
@@ -320,22 +328,7 @@ ul.social-networks {
         font-size: 1.2rem;
     }
 
-
-    
-
 }
-
-@media screen and (max-width: 576px) {
-
-    .logo h1 {
-        font-size: 2rem;
-    }
-
-    .logo h2 {
-        font-size: 1rem;
-    }
-
-}
-  */  
+   
 
 
