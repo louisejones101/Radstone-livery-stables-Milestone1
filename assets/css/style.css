@@ -11,8 +11,8 @@ body{
     font-family: libre-baskerville, sans-serif;
     font-weight: 300;
     font-size: 18px;
-    height:100vh;
-    max-width: 100vw;
+    max-width: 1200px;
+    margin: 0 auto;
     
 }
 
@@ -68,10 +68,11 @@ header {
     color:#ac8980;
     font-family: oswald, sans-serif;
     font-weight:300;
-    font-size: 1.5rem;
+    font-size: 2.4rem;
     padding: 0%;
     margin:0%;
     text-align: center;
+    font-weight: lighter;
 }
 
 /* navigation menu*/
@@ -90,7 +91,6 @@ justify-content: right;
 }
 
 .navbar-nav .active .nav-link{
-    /*border-bottom: 2px solid #035746;*/
     color: #ac8980;
     font-weight: bold;
 }
