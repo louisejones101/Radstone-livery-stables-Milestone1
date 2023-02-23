@@ -89,8 +89,10 @@ justify-content: right;
     color: #22292f
 }
 
-.navbar-nav .active {
-    border-bottom: 2px solid #035746;
+.navbar-nav .active .nav-link{
+    /*border-bottom: 2px solid #035746;*/
+    color: #ac8980;
+    font-weight: bold;
 }
 
 
