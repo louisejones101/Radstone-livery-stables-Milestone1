@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@300;400&family=Libre+Baskerville&family=Oswald&display=swap');
 
-/* * {
+ * {
     margin:0;
     padding:0;
     border:0;
-} */
+ }
 
 body{
     color: #035746;
@@ -201,12 +201,6 @@ ul.social-networks {
 /* facilities page */
 
 /* facilities section-1 */
-/*
-.facilities {
-    background-color: #caa59b;
-}
-*/
-
 
 .stables-img {
     padding: 5%;
@@ -214,7 +208,12 @@ ul.social-networks {
 
 .stables-text {
     text-align: left;
-    padding: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+stables-text li {
     text-align: justify;
 }
 
@@ -251,14 +250,12 @@ ul.social-networks {
 
 .livery > h3 {
     text-align: center;
-    padding-bottom: 3%;
-    
+    padding-bottom: 3%;  
 }
 
 .livery > p {
     text-align: center;
-    padding-bottom: 3%;
-    
+    padding-bottom: 3%;   
 }
 
 .card {
@@ -293,30 +290,42 @@ ul.social-networks {
 }
 
 
+/* Media Queries */
 
-
-
-
-
-
-
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 992px) {
     
-.facilities-img {
-  padding: 0;  
-}
-
-/*
-    .logo h1 {
-        font-size: 2.5rem;
+    .card-column {
+        margin-bottom: 5%;
     }
 
-    .logo h2 {
-        font-size: 1.2rem;
-    }   
+    .card-body>h3 {
+        padding: 1%;
+    }
 
 }
-*/
+
+
+@media screen and (max-width: 768px) {
+    
+    .facilities-img {
+        padding: 0;  
+    }
+
+    .stables-img {
+        padding: 0;
+    }
+    
+    .stables-text {
+        padding: 5%;
+    }
+
+    .card-column {
+        margin-bottom: 5%;
+    }
+    
+
+}
+
 
 @media screen and (max-width: 576px) {
 
@@ -326,6 +335,21 @@ ul.social-networks {
 
     .logo h2 {
         font-size: 1.2rem;
+    }
+    .stables-img {
+        padding: 0;
+    }
+    
+    .stables-text {
+        padding: 5%;
+    }
+
+    .livery h2 {
+        text-align: center;
+    }
+
+    .card-column {
+        margin-bottom: 5%;
     }
 
 }
