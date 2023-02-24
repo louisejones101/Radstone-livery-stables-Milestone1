@@ -289,6 +289,13 @@ stables-text li {
     padding-bottom: 10%;
 }
 
+/* contact page */
+
+.contact-details img {
+    opacity: 0.5;  
+}
+ 
+
 
 /* Media Queries */
 
