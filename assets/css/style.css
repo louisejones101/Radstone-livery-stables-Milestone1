@@ -11,7 +11,7 @@ body{
     font-family: libre-baskerville, sans-serif;
     font-weight: 300;
     font-size: 18px;
-    max-width: 1200px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -81,7 +81,7 @@ justify-content: right;
 }
 
 .nav-link {
-    color: #22292f
+    color: #22292f;
 }
 
 .navbar-nav .active .nav-link{
@@ -213,10 +213,6 @@ ul.social-networks {
     padding-bottom: 5%;
 }
 
-stables-text li {
-    text-align: justify;
-}
-
 .stables-text h2{
     padding: 0;
     margin-bottom: 2rem;
@@ -291,10 +287,53 @@ stables-text li {
 
 /* contact page */
 
-.contact-details img {
-    opacity: 0.5;  
+.bg-image {
+    background-image: url("../images/background-image-3.jpg");
+    /*background: rgba(red, green, blue, alpha); */
+    max-width: 100%;
+    max-height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; 
 }
  
+.contact-form {
+    background-color: #035746;
+    color:#fcf8cf; 
+    border-radius: 1%; 
+    
+}
+
+.form-rows {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+}
+
+.contact-button {
+    width: 25%;
+    background-color: #caa59b;
+    color: #22292f;
+}
+
+.contact-card {
+    background-color: #035746;
+    color:#fcf8cf;
+    height:100%;
+    border-radius: 1%;
+}
+
+.card-body ul {
+    list-style: none;
+}
+
+.card-column p{
+    text-align: left;
+}
+
+
+
 
 
 /* Media Queries */

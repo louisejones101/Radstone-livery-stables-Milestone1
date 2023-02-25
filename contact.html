@@ -43,49 +43,69 @@
         </nav>
     </header>
     <main>
-        <section class="contact-details">
-            <div class="Container-fluid g-0">
-                <img class="img-fluid w-100"src="assets/images/background-image-3.jpg" alt="two horses being ridden in an open field">
+        
+        <section class="contact-details bg-image">
+            <div class="container-fluid">
                 <div class="row g-0">
-                    <div class="container form-container p-5">
-                        <div class="col-12 col-sm-6 contact-form">
-                            <form class="contact-form-section" action="https://formdump.codeinstitute.net/" method="post" >
-                                <div class="row mb-3 mt-3">
-                                    <label class="form-label col-3" for="fname">First Name</label>
-                                    <div class="col-9">
-                                        <input class="form-control" id="fname" type="text" name="first_name" required>
-                                    </div>
-                                </div>
-                                <div class="row mb-3">
-                                    <label class="form-label col-3" for="lname">Last Name</label>
-                                    <div class="col-9">
-                                        <input class="form-control" id="lname" type="text" name="last_name" required>
-                                    </div>
-                                </div>
-                                <div class="row mb-3">
-                                    <label class="form-label col-3" for="email">Email Address</label>
-                                    <div class="col-9">
-                                        <input class="form-control" id="email" type="email" name="email_address" required>
-                                    </div>
-                                </div>
-                                <div class="row mb-3">
-                                    <label class="form-label col-3" for="message">Message</label>
-                                    <div class="col-9">
-                                        <textarea class="form-control" id="message" rows="3"></textarea>
-                                    </div>
-                                </div>
-                                <div class="col-12 text-end pb-5">
-                                    <input class="btn" type="submit" value="Send"></a>
-                                </div>
-
-                            </form>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6 contact-address">
+                    <div class="col-6 p-5">
+                        <form class="p-3 contact-form" action="https://formdump.codeinstitute.net/" method="post">
+                            <div class="row form-rows">
+                                <label class="form-label" for="fname">First Name</label>
+                                <input class="form-control" id="fname" type="text" name="first_name" required>
+                            </div>
+                            <div class="row form-rows">
+                                <label class="form-label" for="lname">Last Name</label>
+                                <input class="form-control" id="lname" type="text" name="last_name" required>
+                            </div>       
+                            <div class="row form-rows">
+                                <label class="form-label" for="email">Email Address</label>
+                                <input class="form-control" id="email" type="email" name="email_address" required>                                   
+                            </div>
+                            <div class="row form-rows">
+                                <label class="form-label" for="text">Message</label>
+                                <textarea class="form-control" rows="3" id="text" type="text" name="message" required></textarea>
+                            </div>
+                            <div class="p-4 text-end">
+                                <input class="btn btn-sm contact-button" type="submit" value="Send"></a>
+                            </div>
                         
+                        </form>
                     </div>
+                    <div class="col-6 p-5">
+                        <div class="card contact-card text-#fcf8cf;">
+                            <div class="card-body">
+                                <h3 class="card-title"><i class="far fa-star fa-2x"></i><br><br>Contact Details</h3>
+                                <p class="card-text">
+                                    <div class="row">
+                                        <div class="col-3">
+                                        <ul>
+                                        <li>Address:</li>
+                                        <br>
+                                        <br>
+                                        <br>
+                                        <br>
+                                        <li>Tel:</li>
+                                        <br>
+                                        <li>Email:</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-9">
+                                        <ul>
+                                        <li>Radstone Farm Livery Stables</li>
+                                        <li>Y Ffordd</li>
+                                        <li>llangynnog</li>
+                                        <li>SA37 6BR</li>
+                                        <br>
+                                        <li>01267 222031</li>
+                                        <br>
+                                        <li>getintouch@radstonefarm.co.uk</li>
+                                        </ul>
+                                    </div>
+                                    
+                                </p>
+                            </div>    
                 </div>
-            </div>
+            </div>   
         </section>
 
     
