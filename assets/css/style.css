@@ -264,7 +264,7 @@ ul.social-networks {
     padding-right: 5%;
 }
 
-.card-body>h3 {
+.card-body > h3 {
     color:#22292f;
     padding: 7%;
     text-align: center;
@@ -289,7 +289,6 @@ ul.social-networks {
 
 .bg-image {
     background-image: url("../images/background-image-3.jpg");
-    /*background: rgba(red, green, blue, alpha); */
     max-width: 100%;
     max-height: 100%;
     background-position: center;
@@ -297,12 +296,27 @@ ul.social-networks {
     background-size: cover;
     position: relative; 
 }
+
+.contact-intro {
+    background-color: #caa59bed;
+    color: #22292f;
+    text-align: center;
+    padding: 3%;
+}
+
+.contact-intro h2 {
+    color: #035746;
+}
  
 .contact-form {
-    background-color: #035746;
+    background-color: #035746f1;
     color:#fcf8cf; 
     border-radius: 1%; 
     
+}
+
+.contact-column {
+    padding: 5%;
 }
 
 .form-rows {
@@ -312,25 +326,27 @@ ul.social-networks {
 }
 
 .contact-button {
-    width: 25%;
+    width: 90px;
     background-color: #caa59b;
     color: #22292f;
 }
 
 .contact-card {
-    background-color: #035746;
+    background-color: #035746f1;
     color:#fcf8cf;
     height:100%;
     border-radius: 1%;
+}
+
+.card-body h3 {
+    color: #caa59b;
 }
 
 .card-body ul {
     list-style: none;
 }
 
-.card-column p{
-    text-align: left;
-}
+
 
 
 
@@ -368,7 +384,7 @@ ul.social-networks {
     .card-column {
         margin-bottom: 5%;
     }
-    
+
 
 }
 
@@ -398,6 +414,15 @@ ul.social-networks {
         margin-bottom: 5%;
     }
 
+    .contact-intro h2 {
+        font-size: 35px;
+    }
+
+    .contact-intro h5 {
+        font-size: 16px;
+    }
+    
+    
 }
    
 
