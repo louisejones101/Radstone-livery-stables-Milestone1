@@ -1,5 +1,5 @@
 # RADSTONE FARM LIVERY STABLES
-
+<br>
 This website was designed based on a fictious livery yard as part of the Code Insitute Milestone 1 project.  The project was to build a static front end website using HTML, CSS and Bootstrap and/or other CSS libraries or frameworks. It is a responsive website that can be viewed on a wide range of devices.  
 
 <br>
@@ -10,6 +10,7 @@ This website was designed based on a fictious livery yard as part of the Code In
 
 ![Radstone Farm website shown on different devices](assets/images/Amiresponsive.jpg)
 
+<br>
 <br>
 
 # Contents
@@ -50,9 +51,10 @@ This website was designed based on a fictious livery yard as part of the Code In
   * [Media](#media)
 * [Acknowledgements](#acknowledgments)
 
+<br>
 <br>  
 
-# User Experience UX 
+# User Experience (UX) 
 
 <br>
 
@@ -73,7 +75,7 @@ The goal of the website is to allow potential users of the stables to take a loo
 
 <br>
 
-### As a Potential Customer
+### As a potential customer
 
 <br>
 
@@ -93,7 +95,7 @@ The goal of the website is to allow potential users of the stables to take a loo
 
 <br>
 
-### As the Administrator
+### As the administrator
 
 * I want to add new facilities/services when needed.
 
@@ -102,14 +104,47 @@ The goal of the website is to allow potential users of the stables to take a loo
 * I want to be able to add/change images.
 
 <br>
+<br>
 
-# Design
-## Colour Scheme
-## Typography
-## Imagery
+## Design
+
+<br>
+
+### Colour Scheme
+<br>
+The color scheme that I dediced upon were earthy brown, green, and cream.  These are the type of colours that are seen in the equine industry.  Originally the colours that were going to be used were quite bold and vibrant but it became apparent as I was building the site that a more muted, pastel version of the colours worked better.
+
+<br>
+(colours images to go here)
+
+<br>
+
+### Typography
+
+<br>
+
+The fonts for this project were imported from Google Fonts (link in credits).  The fonts chosen were libre-baskerville for the main text on the site, Lato for the headings and Oswald for the small titles. 
+ All three of these fonts are easy to read and spaced nicely. 
+
+(screen shot of fonts to go here)
+
+<br>
+
+### Imagery
+
+<br>
+
+The pictures used fot his site were sourced from online websites that offer free images (these are listed in the credits section). 
+
+The images were resized using Photoshop and compressed with Tiny PNG in order to reduce loading time.
+
+<br>
 <br>
 
 # Wireframes
+
+<br>
+
 ## Home Page Wireframe
 ## Facilities Wireframe
 ## Contact Page Wireframe
