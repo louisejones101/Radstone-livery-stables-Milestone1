@@ -59,7 +59,7 @@ header {
 }
 
 .logo h2 {
-    color:#ac8980;
+    color: #a88277;
     font-family: oswald, sans-serif;
     font-weight:300;
     font-size: 2.4rem;
@@ -85,7 +85,7 @@ justify-content: right;
 }
 
 .navbar-nav .active .nav-link{
-    color: #ac8980;
+    color: #a88277;
     font-weight: bold;
 }
 
@@ -257,6 +257,7 @@ ul.social-networks {
 .card {
     background-color: #03574680;
     box-shadow: 0 5px 15px 0 #17171786, 0 5px 20px 0 #17171739;
+    color: #22292f;
 }
 
 .card-padding {
@@ -270,6 +271,10 @@ ul.social-networks {
     text-align: center;
 }
 
+#card-title {
+    color: #035746 !important;
+}
+
 .card-body i {
     color: #fcf8cf;
     position: center;
@@ -278,6 +283,7 @@ ul.social-networks {
 .card-body p {
     text-align: right;
 }
+
 
 
 .livery .row-2 {
@@ -298,7 +304,6 @@ ul.social-networks {
 }
 
 .contact-intro {
-    background-color: #caa59bed;
     color: #22292f;
     text-align: center;
     padding: 3%;
@@ -338,8 +343,8 @@ ul.social-networks {
     border-radius: 1%;
 }
 
-.card-body h3 {
-    color: #caa59b;
+.contact-card h3 {
+    color: #a88277;
 }
 
 .card-body ul {
