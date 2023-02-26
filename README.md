@@ -1,12 +1,14 @@
-# RADSTONE LIVERY STABLES
+# RADSTONE FARM LIVERY STABLES
 
-This website was designed for the Milestone 1 project as part of the Level 5 Web Development course with Code Insitute.  The project was to build a static front end website using HTML, CSS and Bootstrap and/or other CSS libraries or frameworks.
+This website was designed based on a fictious livery yard as part of the Code Insitute Milestone 1 project.  The project was to build a static front end website using HTML, CSS and Bootstrap and/or other CSS libraries or frameworks. It is a responsive website that can be viewed on a wide range of devices.  
 
-(link to website to go here)
+[View the Radstone Farm Livery Stables websitte here](https://louisejones101.github.io/Radstone-livery-stables-Milestone1/)
 
-(project image amirepsonsive to go here)
+![Radstone Farm website shown on different devices](assets/images/Amiresponsive.jpg)
 
 <br>
+
+<h2>Contents</h2>
 
 * [User Experience (UX)](#ser-experience-(ux))
   * [Initial Discussion](#initial-discussion)
@@ -47,14 +49,18 @@ This website was designed for the Milestone 1 project as part of the Level 5 Web
 <br>  
 
 ## User Experience UX 
+
 <br>
 
 ### Initial Discussion
+&nbsp;  
+Radstone Farm Livery Stables is a website designed to showcase their facilities and services to potential clients.  The site consists of a home page highlighting the services and facilites at the stables as well as an about section.  It also contains a facilities page and also a contact page. 
 
-Radstone Livery Stables is a website designed to showcase the facilities and services to potential clients.  It is a livery yard that offers equstrian livery, riding facilities, events and workshops.   
+<br>
+Site Goals
 
-Key Features
-
+<br>
+The goal of the website is to allow potential users of the stables to take a look at the premises, find information about the stable facilities such as the riding school and tack room as well as see what services the stables provide. The users will be able to see the livery packages offered, their prices and also be able to contact the stables should they wish to.  The site needs to be accessible on various devices, easy to navigate and visually appealing.
 
 
 ### User Stories
@@ -117,6 +123,8 @@ Key Features
 <br>
 
 ## Credits Section
+
+[Am I responsive](https://ui.dev/amiresponsive)
 ### Code Used
 ### Content
 ### Media
