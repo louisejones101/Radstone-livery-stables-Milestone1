@@ -110,6 +110,7 @@ justify-content: right;
 .about-img {
     padding-left: 5%;
     padding-top: 5%; 
+    padding-bottom: 5%;
 }
 
 .title-caps {
@@ -141,6 +142,7 @@ justify-content: right;
 .facilities-img {
     padding-right: 5%;
     padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .facilities-section h2 {
