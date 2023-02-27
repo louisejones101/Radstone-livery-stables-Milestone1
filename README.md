@@ -245,6 +245,8 @@ ggygy
 
 Mainly HTML and CSS were used for this project along with bootstrap.
 
+<br>
+
 ## Fameworks/Libraries/Programs Used
 
 <br>
@@ -341,11 +343,21 @@ How to clone the repository:-
 
 <br>
 
-[Am I responsive](https://ui.dev/amiresponsive)
+Am I responsive - (https://ui.dev/amiresponsive)
 
-[Wordpress Markdown Cheetsheet](https://wordpress.com/support/markdown-quick-reference/)
+Wordpress Markdown Cheetsheet - (https://wordpress.com/support/markdown-quick-reference/)
 
-[how to fork and clone a repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
+How to fork and clone a repository - (https://docs.github.com/en/get-started/quickstart/fork-a-repo)
+
+Images for this project - (https://unsplash.com/), (https://pixabay.com/) - Google Images under 'creative commons licenses'
+
+Code Institute and Bootstrap documents for the form and how to add a textbox - (https://getbootstrap.com/docs/5.2/forms/layout/)
+
+How to link a button to specific section on a different page - (https://stackoverflow.com/questions/62307831/button-that-links-to-another-page-specific-part)
+
+Image opacity pseudo class - (https://stackoverflow.com/questions/4997493/set-opacity-of-background-image-without-affecting-child-elements)
+
+
 
 <br>
 
