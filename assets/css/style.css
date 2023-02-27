@@ -317,7 +317,7 @@ ul.social-networks {
 /* contact page */
 
 .bg-image {
-    background-image: url("../images/background-image-3.jpg");
+   
     max-width: 100%;
     max-height: 100%;
     background-position: center;
@@ -326,13 +326,26 @@ ul.social-networks {
     position: relative; 
 }
 
+.bg-image::before {
+    content: "";
+    background-image: url("../images/background-image-3.jpg");
+    position: absolute;
+    opacity: 0.5;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+
 .contact-intro {
-    color: #22292f;
+    background-color: #caa59b;
     text-align: center;
     padding: 3%;
 }
 
-.contact-intro h2 {
+.contact-intro h2, h5 {
     color: #035746;
 }
  
@@ -376,15 +389,25 @@ ul.social-networks {
 
 /* thank you page */
 
-
 .thankyou-bg {
-    background-image: url("../images/background-image-3.jpg");
     max-width: 100%;
     max-height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative; 
+}
+
+.thankyou-bg::before {
+    content: "";
+    background-image: url("../images/background-image-3.jpg");
+    position: absolute;
+    opacity: 0.5;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
 }
 
 .thankyou-column {
@@ -395,7 +418,7 @@ ul.social-networks {
 }
 
 .thankyou-card {
-    background-color: #035746f1;
+    background-color: #035746;
     color:#fcf8cf;
     border-radius: 1%;
     padding: 5%;
@@ -418,11 +441,6 @@ ul.social-networks {
     color: #22292f;
     margin: 5%;
 }
-
-
-
-
-
 
 
 /* Media Queries */
