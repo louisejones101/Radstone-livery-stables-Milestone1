@@ -326,7 +326,7 @@ ul.social-networks {
     position: relative; 
 }
 
-.bg-image::before {
+.bg-image::before { /* psuedo class code taken from stack-overflow and adjusted (in credits) */
     content: "";
     background-image: url("../images/background-image-3.jpg");
     position: absolute;
