@@ -129,7 +129,7 @@ The fonts for this project were imported from Google Fonts (link in credits).  T
 
 <br>
 
-The pictures used fot his site were sourced from online websites that offer free images (these are listed in the credits section). 
+The pictures used for his site were sourced from online websites that offer free images (these are listed in the credits section). 
 
 The images were resized using Photoshop and compressed with Tiny PNG in order to reduce loading time.
 
@@ -168,14 +168,28 @@ All pages contain a navigation bar with a menu and text logo and a footer contai
 
 The logo contains the business name in their brand colours which acts as a link to the home page when clicked.  The navigation menu is a linear structure across the top of the page which then condenses down into a hamburger dropdown menu on small devices. The active page is hightlighted in bold text and in a different colour to the other links.
 
+<br>
+
+<kbd><img src="assets/read-me-images/header.png"  width="800"></kbd>
+
+<br>
+
+<kbd><img src="assets/read-me-images/hamburger-menu.png"  width="300"></kbd>
+
+
+<br>
+<br>
+
 
 The footer contains icons which link to the social media accouts of the business and once clicked open in a serperate window.
 
 All the buttons on the site become hightlighted in a slightly lighter colour when the user hovers over the button to encourage them to click.
 
+<br>
 
-(screen shot here)
+<kbd><img src="assets/read-me-images/footer.png"  width="800"></kbd>
 
+<br>
 <br>
 
 ## Front page
@@ -186,7 +200,7 @@ The front page has a landscape hero image leading into an about section.
 
 <br> 
 
-<kbd><img src="assets/read-me-images/headerandhero.png"  width="800"></kbd>
+<kbd><img src="assets/read-me-images/header-hero-image.png"  width="800"></kbd>
 
 <br>
 <br>
@@ -195,7 +209,7 @@ Underneath the hero image there is an about section with an image to right. The 
 
 <br>
 
-<kbd><img src="assets/read-me-images/section2homepage.png"  width="800"></kbd>
+<kbd><img src="assets/read-me-images/homesection2.png"  width="800"></kbd>
 
 <br>
 <br>
@@ -204,7 +218,7 @@ The next section on this page is a full length banner in list format which highl
 
 <br>
 
-<kbd><img src="assets/read-me-images/section3homepage.png"  width="800"></kbd>
+<kbd><img src="assets/read-me-images/.png"  width="800"></kbd>
 
 <br>
 <br>
