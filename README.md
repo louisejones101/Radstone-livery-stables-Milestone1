@@ -117,7 +117,8 @@ The goal of the website is to allow potential users of the stables to take a loo
 The color scheme that I dediced upon were earthy brown, green, and cream.  These are the type of colours that are seen in the equine industry.  Originally the colours that were going to be used were quite bold and vibrant but it became apparent as I was building the site that a more muted, pastel version of the colours worked better.
 
 <br>
-(colours images to go here)
+
+![Colour Pallete](assets/read-me-images/colourpalette.png)
 
 <br>
 
@@ -125,10 +126,11 @@ The color scheme that I dediced upon were earthy brown, green, and cream.  These
 
 <br>
 
-The fonts for this project were imported from Google Fonts (link in credits).  The fonts chosen were libre-baskerville for the main text on the site, Lato for the headings and Oswald for the small titles. 
- All three of these fonts are easy to read and spaced nicely. 
+The fonts for this project were imported from Google Fonts (link in credits).  The fonts chosen were libre-baskerville for the main text on the site, Lato for the headings and Oswald for the small titles. All three of these fonts are easy to read and spaced nicely. 
 
-(screen shot of fonts to go here)
+<br>
+
+![libre-Baskerville Font](assets/read-me-images/Librebaskerville.png)![Lato Font](assets/read-me-images/Latp.png)![Oswald Font](assets/read-me-images/oswald.png)
 
 <br>
 
@@ -364,6 +366,8 @@ Code Institute - Form dump (https://formdump.codeinstitute.net/)
 Am I responsive - (https://ui.dev/amiresponsive)
 
 Images for this project - (https://unsplash.com/), (https://pixabay.com/) - Google Images under 'creative commons licenses'
+
+Colour palette - (https://coolors.co/22292f-035746-caa59b-fcf8cf)
 
 <br>
 
