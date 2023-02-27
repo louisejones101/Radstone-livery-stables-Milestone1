@@ -46,7 +46,7 @@ This website was designed based on a fictious livery yard as part of the Code In
 * [Credits Section](#credits-section)
   * [Code Used](#code-used)
   * [Content](#content)
-  * [Media](#media)
+  * [information](#information)
 * [Acknowledgements](#acknowledgments)
 
 <br>
@@ -339,43 +339,42 @@ How to clone the repository:-
 <br>
 <br>
 
-# Credits Section
+# Credit Section
+
+<br>
+
+## Code Used
+
+<br>
+
+Code Institute and Bootstrap documents for inspiration for the form and how to add a textbox - (https://getbootstrap.com/docs/5.2/forms/layout/)
+
+Bootstrap Navbar Menu, code adjusted and changed to suit- (https://getbootstrap.com/docs/5.2/components/navbar/)
+
+Image opacity pseudo class, code adjusted for needs of this site - (https://stackoverflow.com/questions/4997493/set-opacity-of-background-image-without-affecting-child-elements)
+
+Code Institute - Form dump (https://formdump.codeinstitute.net/)
+
+<br> 
+
+## Content
 
 <br>
 
 Am I responsive - (https://ui.dev/amiresponsive)
 
+Images for this project - (https://unsplash.com/), (https://pixabay.com/) - Google Images under 'creative commons licenses'
+
+<br>
+
+## Information 
+
+How to link a button to specific section on a different page - (https://stackoverflow.com/questions/62307831/button-that-links-to-another-page-specific-part)
+
 Wordpress Markdown Cheetsheet - (https://wordpress.com/support/markdown-quick-reference/)
 
 How to fork and clone a repository - (https://docs.github.com/en/get-started/quickstart/fork-a-repo)
 
-Images for this project - (https://unsplash.com/), (https://pixabay.com/) - Google Images under 'creative commons licenses'
-
-Code Institute and Bootstrap documents for the form and how to add a textbox - (https://getbootstrap.com/docs/5.2/forms/layout/)
-
-How to link a button to specific section on a different page - (https://stackoverflow.com/questions/62307831/button-that-links-to-another-page-specific-part)
-
-Image opacity pseudo class - (https://stackoverflow.com/questions/4997493/set-opacity-of-background-image-without-affecting-child-elements)
-
-
-
-<br>
-
-### Code Used
-
-<br>
-
-form dump CI
-
-<br>
-
-### Content
-
-<br>
-
-### Media
-
-<br>
 <br>
 
 # Acknowledgments
