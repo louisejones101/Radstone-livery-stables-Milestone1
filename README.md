@@ -218,7 +218,7 @@ The next section on this page is a full length banner in list format which highl
 
 <br>
 
-<kbd><img src="assets/read-me-images/.png"  width="800"></kbd>
+<kbd><img src="assets/read-me-images/homesection3.png"  width="800"></kbd>
 
 <br>
 <br>
@@ -227,27 +227,65 @@ The next section on this page is a full length banner in list format which highl
 
 <br>
 
-When the user arrives on the facilities page they are greeted by a large clear image of the stable layout inside and a bullet list of the facilities.  Below this section are three titled images showing the tackroom, indoor arena and hacking available.
+When the user arrives on the facilities page they are greeted by a large clear image of the stable layout inside and a bullet list of the facilities.  
+
+<br>
+
+<kbd><img src="assets/read-me-images/facilities-section1.png" width="800"></kbd>
+
+<br>
+
+Below this section are three titled images showing the tackroom, indoor arena and hacking available.
+
+<br>
+
+<kbd><img src="assets/read-me-images/facilitiespagesection2.png" width="800"></kbd>
+
+<br>
 
 The final section on the facilities page contains three columns in an easy to read list format describing the different livery packages available and the prices.  Each livery service has been given a small star icon to show whether the package is full, part or DIY.  The columns contain a box shadow to give them a bit more definition on the screen. This section also contains a call to action button which encourages the user to visit the contact page if they have any questions.  On smaller devices the column layout becomes stacked.  
 
+<br>
+
+<kbd><img src="assets/read-me-images/liverysection.png" width="800"></kbd>
+
+<br>
 <br>
 
 ## Contact page
 
 <br>
 
-The final page that is available to the user directly is the contact page.  This has 
-the title of the page and a sentence suggesting the user contacts the stables if they have any questions.  This is in a banner style with the background colour the same as the footer on the page.  The main body of the page has a slightly transparent background image to provide a bit of interest to the page.  On top of this image are two card columns.  The first column contains a contact form with clear labels for the users first name, surname, email and a text box to add a message.  The user must enter something in each box of the form in order to be able to send the message using the submit button.  In order to check that the form was working and the information that was entered was captured correctly, I connected the form to Code Institute from dump using the link that was provided in the love running project (as seen in the screen shots).  Then removed the link and replaced it with a link to the Thankyou page and then changed the method from post to get.  
+The final page that is available to the user directly is the contact page.  This has the title of the page and a sentence suggesting the user contacts the stables if they have any questions.  This is in a banner style with the background colour the same as the footer on the page.  The main body of the page has a slightly transparent background image to provide a bit of interest to the page.  On top of this image are two card columns.  The first column contains a contact form with clear labels for the users first name, surname, email and a text box to add a message.  The user must enter something in each box of the form in order to be able to send the message using the submit button.  
+
+<br>
+
+<kbd><img src="assets/read-me-images/contactpage.png" width="800"></kbd>
+
+In order to check that the form was working and the information that was entered was captured correctly, I connected the form to Code Institute from dump using the link that was provided in the love running project (as seen in the screen shots).  Then removed the link and replaced it with a link to the Thankyou page and then changed the method from post to get.  Below are the screen shots of the code used to send the form details and the captured details.  
 
 
 In the second column of the Contact page there is similarly styled card to the contact form that contains the contact details of the stables, the address, telephone and email address.  Alongside the contact details are icons to represent the type of contact i.e a home icon for the address.    On smaller devices the columms become stacked and the icons alongside the contact details is hidden.
 
 <br>
 
+<kbd><img src="assets/read-me-images/formdumpcode.png" width="800"></kbd>  
+
+<br>
+
+<kbd><img src="assets/read-me-images/formdump.png" width="800"></kbd>
+
+<br>
+
 ## Thank you page
 
-The thank you page only becomes accessible once you have submitted a message.  The page has the same header and footer as the other pages and the same colour scheme.  The page is based on the contact page with the same background image and box layout.  The card-box contains a smiley face icon and some text thanking the user for sending a message and explaining expected timeframe the stables will get back to them.  It also contains a return to home button to take the user back to the home page should they wish.  Though they are able to access the other pages also with the navigation menu at the top.
+The thank you page only becomes accessible once you have submitted a message (I removed the post link to send the submitted data to the form dump and replaced it with get and the link to the thank you page).  
+
+The page has the same header and footer as the other pages and the same colour scheme.  The page is based on the contact page with the same background image and box layout.  The card-box contains a smiley face icon and some text thanking the user for sending a message and explaining expected timeframe the stables will get back to them.  It also contains a return to home button to take the user back to the home page should they wish.  Though they are able to access the other pages also with the navigation menu at the top.
+
+<br>
+
+<kbd><img src="assets/read-me-images/thankyoupage.png" width="800"></kbd>
 
 <br>
 <br>
