@@ -117,9 +117,11 @@ The goal of the website is to allow potential users of the stables to take a loo
 The color scheme that I dediced upon were earthy brown, green, and cream.  These are the type of colours that are seen in the equine industry.  Originally the colours that were going to be used were quite bold and vibrant but it became apparent as I was building the site that a more muted, pastel version of the colours worked better.
 
 <br>
+<br>
 
 ![Colour Pallete](assets/read-me-images/colourpalette.png)
 
+<br>
 <br>
 
 ### Typography
@@ -130,7 +132,7 @@ The fonts for this project were imported from Google Fonts (link in credits).  T
 
 <br>
 
-![libre-Baskerville Font](assets/read-me-images/Librebaskerville.png)![Lato Font](assets/read-me-images/Latp.png)![Oswald Font](assets/read-me-images/oswald.png)
+<img src="assets/read-me-images/Librebaskerville.png"  width="300" height="250"><img src="assets/read-me-images/Latp.png"  width="300" height="250"><img src="assets/read-me-images/oswald.png"  width="300" height="250">
 
 <br>
 
@@ -191,8 +193,31 @@ All the buttons on the site become hightlighted in a slightly lighter colour whe
 
 <br>
 
-The front page has a landscape hero image leading into an about section.  Underneath the hero image there is an about section with an image to right. The text explains a bit about the livery stables and who runs it and has a call to action button allowing the user to jump straight to the livery section on the facilities page. The page layout becomes stacked when viewed on smaller devices and the about image is hidden. The next section on this page is a full length banner in list format which highlights the services that the stables provide. The final section on the front page is brief introduction to the different facilities at the yard such as the the riding facilities, tack room etc.  The text is accompanied by an image of the indoor school and the clear button linking the user to the facilites page to find out more. 
+The front page has a landscape hero image leading into an about section. 
 
+<br> 
+
+<img src="assets/read-me-images/headerandhero.png"  width="800">
+
+<br>
+<br>
+
+Underneath the hero image there is an about section with an image to right. The text explains a bit about the livery stables and who runs it and has a call to action button allowing the user to jump straight to the livery section on the facilities page. The page layout becomes stacked when viewed on smaller devices and the about image is hidden. 
+
+<br>
+
+<img src="assets/read-me-images/section2homepage.png"  width="800">
+
+<br>
+<br>
+
+The next section on this page is a full length banner in list format which highlights the services that the stables provide. The final section on the front page is brief introduction to the different facilities at the yard such as the the riding facilities, tack room etc.  The text is accompanied by an image of the indoor school and the clear button linking the user to the facilites page to find out more. 
+
+<br>
+
+<img src="assets/read-me-images/section3homepage.png"  width="800">
+
+<br>
 <br>
 
 ## Facilities page
