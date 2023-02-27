@@ -20,8 +20,6 @@ This website was designed based on a fictious livery yard as part of the Code In
   * [Initial Discussion](#initial-discussion)
     * [Site Goals](#site-goals)
   * [User Stories](#user-stories)
-    * [Potential Customer](#as-a-potential-customer)
-    * [Administrator](#as-the-administrator)
   * [Design](#design)
     * [Colour Scheme](#colour-scheme)
     * [Typography](#typography)
@@ -95,16 +93,6 @@ The goal of the website is to allow potential users of the stables to take a loo
 * I want to be able to access the pages I need easily.
 
 <br>
-
-### As the administrator
-
-* I want to add new facilities/services when needed.
-
-* I want to be able to update the livery packages prices.
-
-* I want to be able to add/change images.
-
-<br>
 <br>
 
 ## Design
@@ -119,7 +107,8 @@ The color scheme that I dediced upon were earthy brown, green, and cream.  These
 <br>
 <br>
 
-![Colour Pallete](assets/read-me-images/colourpalette.png)
+<kbd><img src="assets/read-me-images/colourpalette.png"  width="800"></kbd>
+
 
 <br>
 <br>
@@ -390,9 +379,27 @@ Code Institute - Form dump (https://formdump.codeinstitute.net/)
 
 Am I responsive - (https://ui.dev/amiresponsive)
 
-Images for this project - (https://unsplash.com/), (https://pixabay.com/) - Google Images under 'creative commons licenses'
-
 Colour palette - (https://coolors.co/22292f-035746-caa59b-fcf8cf)
+
+<br>
+
+## Images
+
+<br>
+
+Hero image on home page by Christine Mendoza - (https://www.unsplash.com)
+
+Images 1 & 2 on home page by Barbara Olsen (https://www.pexels.com)
+
+Image 1 on facilities page - Stables by Engin Akyurt on unsplash (https://www.unsplash.com)
+
+Image 2 on facilities page - girl on horse outdoors by Prostooleh - (https://www.freepik.com/author/prostooleh)
+
+Image 3 on facilities page - indoor school by Kireyonok Yuliya (https://www.freepik.com/author/kireyonok-yuliya)
+
+Image 4 on facilities page by Beth Macdonald (https://unsplash.com/photos/7Y8gfWM-1dw)
+
+Contact & Thank you page backgroud image by Andrey Petkov (https://www.pexels.com)
 
 <br>
 
