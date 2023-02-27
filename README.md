@@ -4,11 +4,11 @@ This website was designed based on a fictious livery yard as part of the Code In
 
 <br>
 
-[View the Radstone Farm Livery Stables websitte here](https://louisejones101.github.io/Radstone-livery-stables-Milestone1/)
+[View the Radstone Farm Livery Stables website here](https://louisejones101.github.io/Radstone-livery-stables-Milestone1/)
 
 <br>
 
-![Radstone Farm website shown on different devices](assets/images/Amiresponsive.jpg)
+<kbd><img src="assets/read-me-images/radstone-devices.png"  width="800"></kbd>
 
 <br>
 <br>
