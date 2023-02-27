@@ -152,26 +152,72 @@ The images were resized using Photoshop and compressed with Tiny PNG in order to
 ## Ipad Wireframe
 <br>
 
-## Features
-### Page Features
-### Accessibility
-### Future Implementations
+# Page Features
+
 <br>
 
-## Technologies
-### Languages Used
-### Fameworks/Libraries/Programs Used
+The website consists of a three accessible pages (home, facilities, contact) and a seperate thank you page that appears after the user has submitted a message via the contact form.
+
+All pages contain a navigation bar with a menu and text logo and a footer containing links to the social media icons and copyright text.
+
+## Logo and navigation menu
+
 <br>
 
-## Deployment and Local Development
+The logo contains the business name in their brand colours which acts as a link to the home page when clicked.  The navigation menu is a linear structure across the top of the page which then condenses down into a hamburger dropdown menu on small devices. The active page is hightlighted in bold text and in a different colour to the other links.
+
+
+The footer contains icons which link to the social media accouts of the business and once clicked open in a serperate window.
+
+All the buttons on the site become hightlighted in a slightly lighter colour when the user hovers over the button to encourage them to click.
+
+
+(screen shot here)
+
+<br>
+
+## Front page
+
+<br>
+
+The front page has a landscape hero image leading into an about section.  Underneath the hero image there is an about section with an image to right, the text explains a bit about the livery stables and who runs it and has a call to action button allowing the user to jump straight to the livery section on the facilities page. The page layout becomes stacked when viewed on smaller devices and the about image is hidden. The next section on this page is a full length banner in list format which highlights the services that the stables provide. The final section on the front page is brief introduction to the different facilities at the yard such as the the riding facilities, tack room etc.  The text is accompanied by an image of the indoor school and the clear button linking the user to the facilites page to find out more. 
+
+<br>
+
+## Facilities page
+
+<br>
+
+When the user arrives on the facilities page they are greeted by a large clear image of the stable layout inside and a bullet list of the facilities.  Below this section are three titled images showing the tackroom, indoor arena and hacking available.
+
+The final section on the facilities page contains three columns describing the different livery packages available and the prices.  Each livery service has been given a small star icon to show whether the package is full, part or DIY.  The columns contain a box shadow to give them a bit more definition on the screen. This section also contains a call to action button which encourages the user to visit the contact page if they have any questions. 
+
+<br>
+
+## Contact page
+
+<br>
+
+The final page that is available to the user directly is the contact page
+
+# Accessibility
+# Future Implementations
+<br>
+
+# Technologies
+## Languages Used
+## Fameworks/Libraries/Programs Used
+<br>
+
+# Deployment and Local Development
 <br>
 
 ## Local Development
-### How Fork to Respository
-### How to Clone the Repository
+## How Fork to Respository
+## How to Clone the Repository
 <br>
 
-## Testing
+# Testing
   W3c Validator
 
   Lighthouse
@@ -184,11 +230,11 @@ The images were resized using Photoshop and compressed with Tiny PNG in order to
 ## Bugs
 <br>
 
-## Credits Section
+# Credits Section
 
 [Am I responsive](https://ui.dev/amiresponsive)
 ### Code Used
 ### Content
 ### Media
 
-## Acknowledgments
+# Acknowledgments
