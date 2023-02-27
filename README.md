@@ -26,12 +26,12 @@ This website was designed based on a fictious livery yard as part of the Code In
     * [Colour Scheme](#colour-scheme)
     * [Typography](#typography)
     * [Imagery](#imagery)
-  * [Wireframes](#wireframes)
-    * [Home Page Wireframe](#home-page-wireframe)
-    * [Facilities Wireframe](#facilities-wireframe)
-    * [Contact Page Wireframe](#contact-page-wireframe)
-    * [Mobile Wireframe](#mobile-wireframe)
-    * [Ipad Wireframe](#ipad-wireframe)
+    * [Wireframes](#wireframes)
+      * [Home Page Wireframe](#home-page-wireframe)
+      * [Facilities Wireframe](#facilities-wireframe)
+      * [Contact Page Wireframe](#contact-page-wireframe)
+      * [Mobile Wireframe](#mobile-wireframe)
+      * [Ipad Wireframe](#ipad-wireframe)
   * [Page Features](#page-features)
   * [Accessibility](#accessibility)
   * [Future Implementations](#future-implementations)
@@ -43,8 +43,6 @@ This website was designed based on a fictious livery yard as part of the Code In
 * [Deployment and Local Development](#deployment-and-local-evelopment)
   * [Deployment Instructions](#deployment-instructions)
   * [Local Development](#local-development)
-    * [How Fork to Respository](#how-to-fork-the-repository)
-    * [How to Clone the Repository](#how-to-clone-the-repository)
 * [Credits Section](#credits-section)
   * [Code Used](#code-used)
   * [Content](#content)
@@ -114,6 +112,7 @@ The goal of the website is to allow potential users of the stables to take a loo
 <br>
 
 ### Colour Scheme
+
 <br>
 The color scheme that I dediced upon were earthy brown, green, and cream.  These are the type of colours that are seen in the equine industry.  Originally the colours that were going to be used were quite bold and vibrant but it became apparent as I was building the site that a more muted, pastel version of the colours worked better.
 
@@ -142,17 +141,20 @@ The pictures used fot his site were sourced from online websites that offer free
 The images were resized using Photoshop and compressed with Tiny PNG in order to reduce loading time.
 
 <br>
+
+## Wireframes
+
 <br>
 
-# Wireframes
+The wireframes for this project were created by hand on the Ipad in Procreate.
 
 <br>
 
-## Home Page Wireframe
-## Facilities Wireframe
-## Contact Page Wireframe
-## Mobile Wireframe
-## Ipad Wireframe
+### Home Page Wireframe
+### Facilities Wireframe
+### Contact Page Wireframe
+### Mobile Wireframe
+### Ipad Wireframe
 
 <br>
 <br>
@@ -239,9 +241,31 @@ ggygy
 
 ## Languages Used
 
-<br>
+<br> 
+
+Mainly HTML and CSS were used for this project along with bootstrap.
 
 ## Fameworks/Libraries/Programs Used
+
+<br>
+
+Procreate - used for the wireframes
+
+Git and Github - for version control, storing of files and deploying the site
+
+Gitpod - used as the coding environment.
+
+Bootstrap v5.2 - for the site frameworks using containers, columns.  Also used for some features on the site such as the navbar, cards and also for the responsiveness of the site alongside my own CSS code.
+
+Google Fonts - used for the Typography on the page.
+
+FontAwesome 5.6.1 - used for the icons to add a bit of visual interest to some of the information.
+
+Google Dev Tools - to test the style features, layout of pages and responsiveness as the site was being built.
+
+Photoshop - resizing of images
+
+Tiny PNG - compression of images
 
 <br>
 <br>
@@ -250,15 +274,48 @@ ggygy
 
 <br>
 
+The site is deployed using GitHub pages
+
+To deploy the site:-
+
+1.  Log in or sign up to Github
+2.  Click on the respository name
+3.  Click on settings
+4.  Find Pages on the lefthand side menu and click
+5.  Scroll to Build and Deployment section
+6.  Make sure the Deploy from a branch is selected in the Source box
+7.  In the Branch dropdown menu select Main and root and then save.
+
+You will then see a notication at the top of the page to say that the site is live and a link to visit the site.  This may take a few minutes, if no link refresh the page.
+
+<br>
+
 ## Local Development
 
 <br>
 
-## How Fork to Respository
+How to fork the respository:-
+
+1.  Log in or sign up to Github
+2.  Click on the respository name
+3.  Click on Fork in the top-right hand corner of the page
+4.  Select the owner of the respository
+5.  Add a description of your fork (optional)
+6.  Copy the main branch only (default)
+7.  Click on the create Fork button
 
 <br>
 
-## How to Clone the Repository
+How to clone the repository:-
+
+1.  Log in or sign up to Github
+2.  Click on the Code button above the list of files
+3.  Copy the repository URL
+4.  Open the terminal
+5.  Change the working directory to where you want to put the cloned directory
+6.  Type 'git clone' and then add the URL
+7.  Press enter
+
 
 <br>
 <br>
@@ -285,6 +342,10 @@ ggygy
 <br>
 
 [Am I responsive](https://ui.dev/amiresponsive)
+
+[Wordpress Markdown Cheetsheet](https://wordpress.com/support/markdown-quick-reference/)
+
+[how to fork and clone a repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
 
 <br>
 
