@@ -371,6 +371,8 @@ Image opacity pseudo class, code adjusted for needs of this site - (https://stac
 
 Code Institute - Form dump (https://formdump.codeinstitute.net/)
 
+Hamburger drop down menu - Code Institute  - 'bootstrap your next big idea" code adapted to suit what I needed it to do.
+
 <br> 
 
 ## Content
