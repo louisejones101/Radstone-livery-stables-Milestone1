@@ -197,7 +197,7 @@ The front page has a landscape hero image leading into an about section.
 
 <br> 
 
-<img src="assets/read-me-images/headerandhero.png"  width="800">
+<kbd><img src="assets/read-me-images/headerandhero.png"  width="800"></kbd>
 
 <br>
 <br>
@@ -206,7 +206,7 @@ Underneath the hero image there is an about section with an image to right. The 
 
 <br>
 
-<img src="assets/read-me-images/section2homepage.png"  width="800">
+<kbd><img src="assets/read-me-images/section2homepage.png"  width="800"></kbd>
 
 <br>
 <br>
@@ -215,7 +215,7 @@ The next section on this page is a full length banner in list format which highl
 
 <br>
 
-<img src="assets/read-me-images/section3homepage.png"  width="800">
+<kbd><img src="assets/read-me-images/section3homepage.png"  width="800"></kbd>
 
 <br>
 <br>
