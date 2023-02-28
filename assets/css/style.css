@@ -328,6 +328,10 @@ ul.social-networks {
 .contact-intro h2, h5 {
     color: #035746;
 }
+
+.contact-intro p {
+    font-size: 1.2rem;
+}
  
 .contact-form {
     background-color: #035746f1;
@@ -469,11 +473,11 @@ ul.social-networks {
 @media screen and (max-width: 576px) {
 
     .logo h1 {
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
 
     .logo h2 {
-        font-size: 1.2rem;
+        font-size: 2rem;
     }
     .stables-img {
         padding: 0;
@@ -512,6 +516,15 @@ ul.social-networks {
     }
     
 }
+
+@media screen and (max-width: 410px) {
    
+    .logo h1 {
+        font-size: 2.5rem;
+    }
 
+    .logo h2 {
+        font-size: 1.5rem;
+    }
 
+}
