@@ -329,10 +329,15 @@ In order to make the site as accessible as possible I used the [w3c guidelines](
 
 # Future Implementations
 
-A gallery
-Social media feed on page 
-footer - nav menu and contact details
-An events page -
+Future additions that could be added to the site:-
+
+A gallery with more photos showcasing the stables, maybe the staff and some of the horses.  
+
+A social media feed somewhere on the site so users can see some up-to-date content and to give a bit of interest to the site as the information is quite static on the site.
+
+A navigation menu and contact details in the footer.  As the some of the pages have a bit of scrolling, the user can then click on a nav link at the bottom rather than scroll back up to the top which is currently the case.
+
+An events page that can be changed regularly to show the up and coming events at the yard and their details.
 
 <br>
 <br>
