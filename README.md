@@ -426,9 +426,7 @@ How to clone the repository:-
 
 # Testing
 
-<br>  W3c Validator
-
-Lighthouse
+<br>
 
 ## Accessibility Testing
 
@@ -591,6 +589,24 @@ For this section I manually tested every feature on every page to ensure all the
   
 <br>
 
+## Lighthouse
+
+<br> 
+
+As part of the testing I used Lighthouse in Google Chrome to test the performance, accessibility, best practices and SEO.  I tested both on desktop and on mobile.  Lighthouse rated the website on both desktop and mobile as really good.  On both the desktop and mobile it scored 100% in accessibility and SEO and 92% best practises.  For performance its scored the site on desktop as 97% and the mobile a tiny bit better at 99%.  Below are screenshots of the results from the lighthouse panel.
+
+<br>
+
+| Lighthouse Desktop | Lighthouse Mobile |
+|--------------------|-------------------|
+|<img src="assets/read-me-images/lighthousedesktop.png">|<img src="assets/read-me-images/lighthousemobile.png">|
+
+
+
+## W3c Validator
+
+
+
 # Bugs
 
 <br>
@@ -601,7 +617,7 @@ Safari nav menu - unable to change
 Wave - text contrast -  changed 
 Wave - links being the same next to the logo link - did not change - 
 Hamburger menu alignment on very small phones 280px (ie galaxy fold) and the contact button on this size device also - did not have time to change
-Lighthouse?
+Lighthouse  images on home page could have been sized smaller - images resized in photoshop and reloaded on to site.
 code validator
 
 <br>
