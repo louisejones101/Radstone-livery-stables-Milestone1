@@ -442,7 +442,7 @@ ul.social-networks {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 760px) {
     
     .facilities-img {
         padding: 0;  
@@ -527,6 +527,18 @@ ul.social-networks {
 
     .logo h2 {
         font-size: 1.5rem;
+    }
+
+}
+
+@media screen and (max-width: 340px) {
+   
+    .logo h1 {
+        font-size: 2rem;
+    }
+
+    .logo h2 {
+        font-size: 1.2rem;
     }
 
 }

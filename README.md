@@ -2,6 +2,14 @@
   .table1 td, th {
     border: none; !important
   }
+  
+  .table1 td {
+    vertical-align: top;
+  }
+
+  .table2 th {
+    background-color: 
+  }
 </style>
 <br>
 
@@ -221,7 +229,7 @@ The front page has a landscape hero image leading into an about section.
 <br>
 <br>
 
-Underneath the hero image there is an about section with an image to right. The text explains a bit about the livery stables and who runs it and has a call to action button allowing the user to jump straight to the livery section on the facilities page. The page layout becomes stacked when viewed on smaller devices and the about image is hidden. 
+Underneath the hero image there is an about section with an image to left. The text explains a bit about the livery stables and who runs it and has a call to action button allowing the user to jump straight to the livery section on the facilities page. The page layout becomes stacked when viewed on smaller devices and the about image is hidden. 
 
 <br>
 
@@ -447,12 +455,75 @@ Screenshot 3
 <kbd><img src="assets/read-me-images/text-contrast.png" width="800"></kbd>
 
 <br>
+<div class="table1">
 
 | Screenshot 4 | Screenshot 5 | Screenshot 6 |
 |--------------|--------------|--------------|
-|<img src="assets/read-me-images/wave.png">|<img src="assets/read-me-images/wave-facilities.png">|<img src="assets/read-me-images/wave-contact.png">
+|<img src="assets/read-me-images/wave.png" width="300">|<img src="assets/read-me-images/wave-facilities.png" width="300">|<img src="assets/read-me-images/wave-contact.png" width="300">
+
+</div>
 
 <br>
+
+## Responsiveness
+
+To test that the site is responsive on a wide range of sizes I used Google Dev Tools.   
+
+Visually the website scaled down well from the desktop version to tablet devices, and the different average mobile sizes. 
+
+### Contact page
+
+The layout of contact page on tablet sized device (<768px) remains the same column layout as the desktop however the services layout becomes a two column list not four.   On a mobile devices (<425px) the image on the left of the about page is hidden, the list of services becomes a one column list and the image alongside the facilities section moves down to underneath the text and becomes full width.
+
+<strong>Contact page screenshots</strong>
+
+<div class="table1">
+
+|Tablet <768px|Mobiles <425px|   
+|-------------|--------------|
+|<img src="assets/read-me-images/tabletresponsive.png">|<img src="assets/read-me-images/contactmobile.png">|<img src="assets/read-me-images/mobilecontact2.png">|
+
+</div>
+
+<br>
+
+<strong></strong>Facilities page screenshots</strong>
+
+<br>
+
+<div class="table1">
+
+|Tablet <768px|Mobiles <425px|   
+|-------------|--------------|
+|<img src="assets/read-me-images/tablet2.png">|<img src="assets/read-me-images/mobile2.png">|
+
+</div>
+
+<strong></strong>Contact page screenshots</strong>
+
+<br>
+
+<div class="table1">
+
+|Tablet <768px|Mobiles <425px|
+|-------------|--------------|
+|<img src="assets/read-me-images/tabletthankyou.png" width="400">|<img src="assets/read-me-images/mobile4.png" width="300">|
+
+</div>
+
+The table below is based off some of the devices you are offered on Google Dev Tools.
+
+<kbd>
+|Responsiveness|Iphone SE (375px)|Samsung Galaxy S8 (360px)|Ipad Mini (768)|Surface Pro 7 (912px)|Galaxy Fold (280px)|Nest Hub (1024px)|Notes               |
+|--------------|-----------------|-------------------------|---------------|---------------------|-------------------|-----------------|--------------------|
+|Text scales down as expected|yes|yes|yes|yes|yes|yes|
+|Columns align as designed|yes|yes|yes|yes|yes|yes|
+|Features hidden as should be|yes|yes|yes|n/a|yes|n/a|Compresses down to hamburder but drops under the heading|
+|Nav menu compresses to hamburger|yes|yes|yes|yes|no|yes|
+|links work|yes|yes|yes|yes|yes|yes|
+</kbd>
+
+
 
   Testing User Stories
   
