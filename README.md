@@ -102,17 +102,12 @@ The goal of the website is to allow potential users of the stables to take a loo
 The color scheme that I dediced upon were earthy brown, green, and cream.  These are the type of colours that are seen in the equine industry.  Originally the colours that were going to be used were quite bold and vibrant but it became apparent as I was building the site that a more muted, pastel version of the colours worked better.
 
 <br>
-<br>
 
 <kbd><img src="assets/read-me-images/colourpalette.png"  width="800"></kbd>
 
-
-<br>
 <br>
 
 ### Typography
-
-<br>
 
 The fonts for this project were imported from Google Fonts (link in credits).  The fonts chosen were libre-baskerville for the main text on the site, Lato for the headings and Oswald for the small titles. All three of these fonts are easy to read and spaced nicely. 
 
@@ -126,8 +121,6 @@ The fonts for this project were imported from Google Fonts (link in credits).  T
 
 ### Imagery
 
-<br>
-
 The pictures used for his site were sourced from online websites that offer free images (these are listed in the credits section). 
 
 The images were resized using Photoshop and compressed with Tiny PNG in order to reduce loading time.
@@ -136,7 +129,6 @@ The images were resized using Photoshop and compressed with Tiny PNG in order to
 
 ## Wireframes
 
-<br>
 
 The wireframes for this project were created by hand on the Ipad in Procreate.
 
@@ -176,14 +168,9 @@ The wireframes for this project were created by hand on the Ipad in Procreate.
 
 <kbd><img src="assets/read-me-images/Smalldevice.png"  width="500"></kbd>
 
-
-
-<br>
 <br>
 
 # Page Features
-
-<br>
 
 The website consists of a three accessible pages (home, facilities, contact) and a seperate thank you page that appears after the user has submitted a message via the contact form.
 
@@ -192,8 +179,6 @@ All pages contain a navigation bar with a menu and text logo and a footer contai
 <br>
 
 ## Logo and navigation menu
-
-<br>
 
 The logo contains the business name in their brand colours which acts as a link to the home page when clicked.  The navigation menu is a linear structure across the top of the page.  The active page is hightlighted in bold text and in a different colour to the other links.
 
@@ -211,7 +196,6 @@ The logo contains the business name in their brand colours which acts as a link 
 </div>
 
 <br>
-
 
 The footer contains icons which link to the social media accouts of the business and once clicked open in a serperate window.
 
@@ -257,14 +241,13 @@ The next section on this page is a full length banner in list format which highl
 
 ## Facilities page
 
-<br>
-
 When the user arrives on the facilities page they are greeted by a large clear image of the stable layout inside and a bullet list of the facilities.  
 
 <br>
 
 <kbd><img src="assets/read-me-images/facilities-section1.png" width="800"></kbd>
 
+<br>
 <br>
 
 Below this section are three titled images showing the tackroom, indoor arena and hacking available.
@@ -273,6 +256,7 @@ Below this section are three titled images showing the tackroom, indoor arena an
 
 <kbd><img src="assets/read-me-images/facilitiespagesection2.png" width="800"></kbd>
 
+<br>
 <br>
 
 The final section on the facilities page contains three columns in an easy to read list format describing the different livery packages available and the prices.  Each livery service has been given a small star icon to show whether the package is full, part or DIY.  The columns contain a box shadow to give them a bit more definition on the screen. This section also contains a call to action button which encourages the user to visit the contact page if they have any questions.  On smaller devices the column layout becomes stacked.  
@@ -286,16 +270,15 @@ The final section on the facilities page contains three columns in an easy to re
 
 ## Contact page
 
-<br>
-
 The final page that is available to the user directly is the contact page.  This has the title of the page and a sentence suggesting the user contacts the stables if they have any questions.  This is in a banner style with the background colour the same as the footer on the page.  The main body of the page has a slightly transparent background image to provide a bit of interest to the page.  On top of this image are two card columns.  The first column contains a contact form with clear labels for the users first name, surname, email and a text box to add a message.  The user must enter something in each box of the form in order to be able to send the message using the submit button.  
 
 <br>
 
 <kbd><img src="assets/read-me-images/contactpage.png" width="800"></kbd>
 
-In order to check that the form was working and the information that was entered was captured correctly, I connected the form to Code Institute from dump using the link that was provided in the love running project (as seen in the screen shots).  Then removed the link and replaced it with a link to the Thankyou page and then changed the method from post to get.  Below are the screen shots of the code used to send the form details and the captured details.  
+<br>
 
+In order to check that the form was working and the information that was entered was captured correctly, I connected the form to Code Institute from dump using the link that was provided in the love running project (as seen in the screen shots).  Then removed the link and replaced it with a link to the Thankyou page and then changed the method from post to get.  Below are the screen shots of the code used to send the form details and the captured details.  
 
 In the second column of the Contact page there is similarly styled card to the contact form that contains the contact details of the stables, the address, telephone and email address.  Alongside the contact details are icons to represent the type of contact i.e a home icon for the address.    On smaller devices the columms become stacked and the icons alongside the contact details is hidden.
 
@@ -307,6 +290,7 @@ In the second column of the Contact page there is similarly styled card to the c
 
 <kbd><img src="assets/read-me-images/formdump.png" width="800"></kbd>
 
+<br>
 <br>
 
 ## Thank you page
@@ -324,10 +308,7 @@ The page has the same header and footer as the other pages and the same colour s
 
 # Accessibility
 
-<br>
-
 In order to make the site as accessible as possible I used the [w3c guidelines](https://www.w3.org/WAI/test-evaluate/preliminary/). 
-
 
 * The font families and font size were chosen for their easy readability.
 
@@ -338,7 +319,6 @@ In order to make the site as accessible as possible I used the [w3c guidelines](
 * A clear structure to the flow of the site and appropriate headings on the page in order of importance.
 
 * Aria-labels added to the form and the social media icon links to allow them to be read by screen readers.
-
 
 <br>
 <br>
@@ -364,15 +344,11 @@ An events page that can be changed regularly to show the up and coming events at
 
 ## Languages Used
 
-<br> 
-
 Mainly HTML and CSS were used for this project along with bootstrap.
 
 <br>
 
 ## Frameworks Libraries and Programs Used
-
-<br>
 
 Procreate - used for the wireframes
 
@@ -398,14 +374,10 @@ W3C Jigsaw - to check CSS code
 
 Wave by Webaim - Used to check the accessibility of the site
 
-
-
 <br>
 <br>
 
 # Deployment and Local Development
-
-<br>
 
 The site is deployed using GitHub pages
 
@@ -424,8 +396,6 @@ You will then see a notication at the top of the page to say that the site is li
 <br>
 
 ## Local Development
-
-<br>
 
 How to fork the respository:-
 
@@ -448,7 +418,6 @@ How to clone the repository:-
 5.  Change the working directory to where you want to put the cloned directory
 6.  Type 'git clone' and then add the URL
 7.  Press enter
-
 
 <br>
 <br>
@@ -563,8 +532,6 @@ The table below is based off some of the devices you are offered on Google Dev T
 
 ## Browser Compatibility
 
-<br>
-
 I tested all of the website pages in three browsers to check that everything worked, the layout and appearance remained as it should.  The three browsers I chose were the three I had easy access to on my Apple Macbook, Google Chrome, Firefox and Safari.  Everything worked as it should in Chrome and Firefox however in Safari the navigation menu was left aligned on devices larger than tablet size rather than right aligned as intended.  I am not sure if this was due to Safari being an old version and not up to date. (The operating system on my mac doesnt allow for update).
 
 |   |Google Chrome|Firefox|Safari|Notes |
@@ -576,7 +543,6 @@ I tested all of the website pages in three browsers to check that everything wor
 
 ## Features
 
-<br>
 For this section I manually tested every feature on every page to ensure all the links/buttons/form did as they should.  Below are the results.
 
 <br>
@@ -603,8 +569,6 @@ For this section I manually tested every feature on every page to ensure all the
 
 ## Testing User Stories
 
-<br>
-
 |User Story|Testing|
 |-------|----|
 |I want to find out about the stable and who runs it.|Home page first section has write up about the stables and the owners name.|
@@ -619,8 +583,6 @@ For this section I manually tested every feature on every page to ensure all the
 <br>
 
 ## Lighthouse
-
-<br> 
 
 As part of the testing I used Lighthouse in Google Chrome to test the performance, accessibility, best practices and SEO.  I tested both on desktop and on mobile.  Lighthouse rated the website on both desktop and mobile as really good.  On both the desktop and mobile it scored 100% in accessibility and SEO and 92% best practises.  For performance its scored the site on desktop as 97% and the mobile a tiny bit better at 99%.  Below are screenshots of the results from the lighthouse panel.
 
@@ -695,8 +657,6 @@ To check the CSS code I copied and pasted the code into the w3c css validator.  
 
 # Bugs
 
-<br>
-
 I have been testing throughout the build using Google dev tools.
 
 Layout issue with the navigation menu in SAFARI browser.  Unable to check if this is just because the version is old or if it is on newer updated versions because my macbook os system cannot be upgraded.
@@ -718,8 +678,6 @@ There was a problem with the code used in the contact card (used an unordered li
 
 ## Code Used
 
-<br>
-
 Code Institute and Bootstrap documents for inspiration for the form and how to add a textbox - (https://getbootstrap.com/docs/5.2/forms/layout/)
 
 Bootstrap Navbar Menu, code adjusted and changed to suit- (https://getbootstrap.com/docs/5.2/components/navbar/)
@@ -738,8 +696,6 @@ Box shadows - https://www.w3schools.com/css/css3_shadows_box.asp
 
 ## Content
 
-<br>
-
 Am I responsive - (https://ui.dev/amiresponsive)
 
 Colour palette - (https://coolors.co/22292f-035746-caa59b-fcf8cf)
@@ -747,8 +703,6 @@ Colour palette - (https://coolors.co/22292f-035746-caa59b-fcf8cf)
 <br>
 
 ## Images
-
-<br>
 
 Hero image on home page by Christine Mendoza - (https://www.unsplash.com)
 
@@ -768,8 +722,6 @@ Contact & Thank you page background image by Andrey Petkov (https://www.pexels.c
 
 ## Information 
 
-<br>
-
 How to link a button to specific section on a different page - (https://stackoverflow.com/questions/62307831/button-that-links-to-another-page-specific-part)
 
 Wordpress Markdown Cheetsheet - (https://wordpress.com/support/markdown-quick-reference/)
@@ -782,10 +734,8 @@ w3c accessibility guidelines checklist - https://www.w3.org/WAI/test-evaluate/pr
 
 # Acknowledgments
 
-<br>
 My mentor Elaine Roche for answering all my questions.
 Student support and Iris the cohort facilitator for checking in on me and encouraging me to keep going when I was 6 weeks behind schedule due to work commitments.  
 Tutor support for giving me advice on how to use Github when I first started
 
-<br>
 
