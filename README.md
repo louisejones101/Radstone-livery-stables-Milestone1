@@ -101,6 +101,8 @@ The goal of the website is to allow potential users of the stables to take a loo
 
 * I want to be able to access the pages I need easily.
 
+* I want to be able to access their social media pages.
+
 <br>
 <br>
 
@@ -521,7 +523,7 @@ The table below is based off some of the devices you are offered on Google Dev T
 |Text scales down as expected|yes|yes|yes|yes|yes|yes|
 |Columns align as designed|yes|yes|yes|yes|yes|yes|
 |Features hidden as should be|yes|yes|yes|n/a|yes|n/a|
-|Nav menu compresses to hamburger|yes|yes|yes|yes|no|yes|Compresses down to hamburder but drops under the heading|
+|Nav menu compresses to hamburger|yes|yes|yes|yes|no|yes|Compresses down to hamburder but drops under the heading also contact us button on facilities page text no fully visible|
 |links work|yes|yes|yes|yes|yes|yes|
 
 <br>
@@ -542,16 +544,56 @@ I tested all of the website pages in three browsers to check that everything wor
 
 ## Features
 
+<br>
+For this section I manually tested every feature on every page to ensure all the links/buttons/form did as they should.  Below are the results.
 
-  Testing User Stories
-  
-  Further Testing
+<br>
 
-  
+
+|Feature|Test|Outcome|
+|-------|----|-------|
+|Home page logo in left corner|Hover over|Shows a link to the index.html page|
+|Navigation Menu links on home page|Click on|They all take you to the correct page|
+|Home page 'Livery packages' button|Click on|Takes you to the correct section in on the livery page|
+|Home page 'facilities' button|Click on|Takes you to livery page|
+|Social media icons on home page|Click on|Take you to relevant social media in new window|
+|Facilities page logo in left corner|Hover over|Shows a link to the index.html page|
+|Navigation Menu links on facilities page|Click on|They all take you to the correct page|
+|Facilities page contact us button|Click on|Link inactive - spelling mistake in code, changed and link was then correct|
+|Social media icons on home page|Click on|Take you to relevant social media in new window|
+|Contact us page logo in left corner|Hover over|Shows a link to the index.html page|
+|Navigation Menu links on contact page|Click on|They all take you to the correct page|
+|Form data imput boxes|Attempt to send the form without filling out all sections|Error message stating you all boxes are required|
+|Form send button|Click on (after filling out correctly)|Takes you to a Thank you page|
+|All links on thank you page and button|Click on|Working correctly|
+
+<br>
+
+## Testing User Stories
+
+<br>
+
+|User Story|Testing|
+|-------|----|
+|I want to find out about the stable and who runs it.|Home page first section has write up about the stables and the owners name.|
+|I want to be able to see straight away that it is a livery stables.|Livery Stables is in the Header of each page and mentioned throughout the site|
+|I want to be able to see visually with clear photographs what the stables/facilities look like.|Photographs showing the horses, the facilities and the owner|
+|I want to see what services are provided by the stables.| Services are listed on the front page|
+|I want to be able to see the livery packages available and their prices.|A livery package cta button is on the front page.  This then takes you to a livery section where the information of each package and prices are clearly listed|
+|I want to be able to find the contact details easily and contact the stables directly from the site if I have any questions.| Contact links on nav of every page.  Contact page has all the contact information clearly set out as well as a contact form|
+|I want to be able to access the pages I need easily.|All pages are able to be accessed via the navigation bar and cta buttons positioned on each page|
+|I want to be able to access their social media pages.|Social media icons in the footer of each page|
   
 <br>
 
-## Bugs
+# Bugs
+
+<br>
+
+Safari nav menu - unable to change 
+Wave - text contrast -  changed 
+Wave - links being the same next to the logo link - did not change - 
+Hamburger menu alignment on very small phones 280px (ie galaxy fold) and the contact button on this size device also - did not have time to change
 
 <br>
 <br>
