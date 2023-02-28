@@ -282,7 +282,7 @@ ul.social-networks {
 
 .card-body i {
     color: #fcf8cf;
-    position: center;
+    text-align: center;
 }
 
 .card-body p {
@@ -562,6 +562,5 @@ ul.social-networks {
     .card-address {
         font-size: 1rem;
     }
-
 
 }
