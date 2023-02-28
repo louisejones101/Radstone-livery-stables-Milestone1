@@ -65,26 +65,19 @@ This website was designed based on a fictious livery yard as part of the Code In
 
 ## Initial Discussion
 
-<br>
-
-Radstone Farm Livery Stables is a website designed to showcase their facilities and services to potential clients.  The site consists of a home page highlighting the services and facilites at the stables as well as an about section.  It also contains a facilities page and also a contact page. 
-
+Radstone Farm Livery Stables is a website designed to showcase their facilities and services to potential clients.  The site consists of a home page highlighting the services and facilites at the stables as well as an about section.  It also contains a facilities page and also a contact page.  
 <br>
 
 ### Site goals
-
-<br>
 
 The goal of the website is to allow potential users of the stables to take a look at the premises, find information about the stable facilities such as the riding school and tack room as well as see what services the stables provide. The users will be able to see the livery packages offered, their prices and also be able to contact the stables should they wish to.  The site needs to be accessible on various devices, easy to navigate and visually appealing.
 
 <br>
 
 ## User Stories
-
 <br>
 
 ### As a potential customer
-
 <br>
 
 * I want to find out about the stable and who runs it.
@@ -103,7 +96,6 @@ The goal of the website is to allow potential users of the stables to take a loo
 
 * I want to be able to access their social media pages.
 
-<br>
 <br>
 
 ## Design
