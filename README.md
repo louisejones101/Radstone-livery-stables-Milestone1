@@ -156,15 +156,41 @@ The wireframes for this project were created by hand on the Ipad in Procreate.
 
 <br>
 
-### Home Page Wireframe
+### Home page desktop wireframe
 
-<kbd><img src=""  width="800"></kbd>
+<kbd><img src="assets/read-me-images/Frontpagedesktop.png"  width="500"></kbd>
 
+<br>
 
-### Facilities Wireframe
+### Facilities desktop Wireframe
+
+<kbd><img src="assets/read-me-images/Facilitiespagedesktop.png"  width="500"></kbd>
+
+<br>
+
 ### Contact Page Wireframe
-### Mobile Wireframe
-### Ipad Wireframe
+
+<kbd><img src="assets/read-me-images/Contactpagedesktop.png"  width="500"></kbd>
+
+<br>
+
+### Thank you desktop wireframe
+
+<kbd><img src="assets/read-me-images/Thankyoudesktop.png"  width="500"></kbd>
+
+<br>
+
+### Ipad Wireframes
+
+<kbd><img src="assets/read-me-images/Tablet.png"  width="500"></kbd>
+
+<br>
+
+### Mobile devices Wireframes
+
+<kbd><img src="assets/read-me-images/Smalldevice.png"  width="500"></kbd>
+
+
 
 <br>
 <br>
