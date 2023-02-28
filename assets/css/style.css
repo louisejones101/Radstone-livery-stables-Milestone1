@@ -261,7 +261,7 @@ ul.social-networks {
 
 .card {
     background-color: #03574680;
-    box-shadow: 0 5px 15px 0 #17171786, 0 5px 20px 0 #17171739;
+    box-shadow: 0 5px 15px 0 #17171786, 0 5px 20px 0 #17171739; /* code example used from w3schools and adjusted to own needs */
     color: #22292f;
 }
 
@@ -317,7 +317,6 @@ ul.social-networks {
     left: 0px;
     z-index: -1;
 }
-
 
 .contact-intro {
     background-color: #caa59b;
