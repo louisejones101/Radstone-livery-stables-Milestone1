@@ -367,9 +367,19 @@ ul.social-networks {
     color: #a88277;
 }
 
-.card-body ul {
-    list-style: none;
+.card-body p {
+    text-align: left;
+    padding: 0;
 }
+
+.card-icons {
+    text-align: center;
+}
+
+.card-address {
+    padding-left: 5%
+}
+
 
 
 /* thank you page */
@@ -504,6 +514,10 @@ ul.social-networks {
         font-size: 35px;
     }
 
+    .card-address {
+        margin-left: 5%;
+    }
+
 
     .thankyou-card {        
         padding: 1%;
@@ -529,6 +543,10 @@ ul.social-networks {
         font-size: 1.5rem;
     }
 
+    .card-address {
+        padding-left: 5%;
+    }
+
 }
 
 @media screen and (max-width: 340px) {
@@ -540,5 +558,10 @@ ul.social-networks {
     .logo h2 {
         font-size: 1.2rem;
     }
+
+    .card-address {
+        font-size: 1rem;
+    }
+
 
 }
