@@ -44,7 +44,7 @@ This website was designed based on a fictious livery yard as part of the Code In
   * [Future Implementations](#future-implementations)
 * [Technologies](#technologies)
   * [Languages Used](#languages-used)
-  * [Fameworks/Libraries/Programs Used](#frameworks-libraries-programs-used)
+  * [Fameworks Libraries and Programs Used](#frameworks-libraries-and-programs-used)
 * [Testing](#testing)
 * [Bugs](#bugs)
 * [Deployment and Local Development](#deployment-and-local-evelopment)
@@ -349,7 +349,7 @@ Mainly HTML and CSS were used for this project along with bootstrap.
 
 <br>
 
-## Fameworks/Libraries/Programs Used
+## Frameworks Libraries and Programs Used
 
 <br>
 
@@ -370,6 +370,12 @@ Google Dev Tools - to test the style features, layout of pages and responsivenes
 Photoshop - resizing of images
 
 Tiny PNG - compression of images
+
+W3C Markup Validation - to test HTML code
+
+W3C Jigsaw - to check CSS code
+
+
 
 <br>
 <br>
@@ -502,7 +508,7 @@ The layout of contact page on tablet sized device (<768px) remains the same colu
 
 <br>
 
-<strong></strong>Contact page screenshots</strong>
+<strong>Contact page screenshots</strong>
 
 <br>
 
@@ -601,11 +607,68 @@ As part of the testing I used Lighthouse in Google Chrome to test the performanc
 |--------------------|-------------------|
 |<img src="assets/read-me-images/lighthousedesktop.png">|<img src="assets/read-me-images/lighthousemobile.png">|
 
+<br>
+
+## W3c Markup Validator
+
+The HTML code from each page on the site was copied into the validator to check it.  On the home page it hightlighted that the first 'section' would be better off as a div as it did not contain a heading.  I changed it on this page and the others before I took a screenshot of the validator screen.  So I only have a screenshot of the code results after it had been changed.
+
+The Facilities page showed that there was an issue with two of the 'p' tags in the card columns.  When I checked the code the closing 'p' tags were in the wrong place.
+
+On the Contact page I had used a unordered list for the contact address, email and telephone number with 'br' in to create space.  It highlighted that breaks should not be used in a unordered list so I removed the list format all together and reaplaced them with the 'address' tag and 'br' for the space I needed to get the ions level.
+
+The Thank you page went through the validator without any changes needed.
+
+<br>
+
+<strong>Home page after changes</strong>
+
+<kbd><img src="assets/read-me-images/validator1.png" width="400"></kbd>
+
+<br>
+
+<div class="table1">
+
+| Facilities page before | Facilities page after |
+|------------------------|-----------------------|
+|<img src="assets/read-me-images/validator2.png">|<img src="assets/read-me-images/validator3.png">|
+</div>
 
 
-## W3c Validator
+<br>
 
+<div class="table1">
 
+| Contact page before | Contact page after |
+|------------------------|-----------------------|
+|<img src="assets/read-me-images/validator4.png">|<img src="assets/read-me-images/validator5.png">|
+
+</div>
+
+<br>
+
+<strong>Home page after changes</strong>
+
+<kbd><img src="assets/read-me-images/validator6.png" width="400"></kbd>
+
+<br>
+
+## w3c Jigsaw
+
+To check the CSS code I copied and pasted the code into the w3c css validator.  It highlighted one error with a 'position: center'.  It was meant to be "text-align-center".  After the change had been made in the CSS file, the code was re-run through the validator and came back with no errors.
+
+<br>
+
+<div class="table1">
+
+| CSS before | CSS after |
+|------------------------|-----------------------|
+|<img src="assets/read-me-images/cssvalidator1.png">|<img src="assets/read-me-images/cssvalidator2.png">|
+
+</div>
+
+<br>
+<br>
 
 # Bugs
 
@@ -618,7 +681,7 @@ Wave - text contrast -  changed
 Wave - links being the same next to the logo link - did not change - 
 Hamburger menu alignment on very small phones 280px (ie galaxy fold) and the contact button on this size device also - did not have time to change
 Lighthouse  images on home page could have been sized smaller - images resized in photoshop and reloaded on to site.
-code validator
+code validator - changed contact details code as errors in validator which then meant that the responsiveness of that section was not as was expected on small devices.  It was corrected by changing column widths, paddings.
 
 <br>
 <br>
