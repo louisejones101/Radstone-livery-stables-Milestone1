@@ -1,8 +1,4 @@
 <style>
-  .table1 td, th {
-    border-color; #ffffff;
-  }
-  
   .table1 td {
     vertical-align: top;
   }
@@ -441,14 +437,17 @@ Screenshot 1
 <kbd><img src="assets/read-me-images/contrast-errors-wave.png" width="800"></kbd>
 
 <br>
+
 Screenshot 2
 <kbd><img src="assets/read-me-images/link-errors.png" width="800"></kbd>
 
 <br>
+
 Screenshot 3
 <kbd><img src="assets/read-me-images/text-contrast.png" width="800"></kbd>
 
 <br>
+
 <div class="table1">
 
 | Screenshot 4 | Screenshot 5 | Screenshot 6 |
@@ -457,6 +456,7 @@ Screenshot 3
 
 </div>
 
+<br>
 <br>
 
 ## Responsiveness
@@ -468,6 +468,8 @@ Visually the website scaled down well from the desktop version to tablet devices
 ### Contact page
 
 The layout of contact page on tablet sized device (<768px) remains the same column layout as the desktop however the services layout becomes a two column list not four.   On a mobile devices (<425px) the image on the left of the about page is hidden, the list of services becomes a one column list and the image alongside the facilities section moves down to underneath the text and becomes full width.
+
+<br>
 
 <strong>Contact page screenshots</strong>
 
@@ -481,7 +483,7 @@ The layout of contact page on tablet sized device (<768px) remains the same colu
 
 <br>
 
-<strong></strong>Facilities page screenshots</strong>
+<strong>Facilities page screenshots</strong>
 
 <br>
 
@@ -492,6 +494,8 @@ The layout of contact page on tablet sized device (<768px) remains the same colu
 |<img src="assets/read-me-images/tablet2.png">|<img src="assets/read-me-images/mobile2.png">|
 
 </div>
+
+<br>
 
 <strong></strong>Contact page screenshots</strong>
 
@@ -505,18 +509,38 @@ The layout of contact page on tablet sized device (<768px) remains the same colu
 
 </div>
 
+<br>
+<br>
+
 The table below is based off some of the devices you are offered on Google Dev Tools.
 
+<br>
 
 |Responsiveness|Iphone SE (375px)|Samsung Galaxy S8 (360px)|Ipad Mini (768)|Surface Pro 7 (912px)|Galaxy Fold (280px)|Nest Hub (1024px)|Notes               |
 |--------------|-----------------|-------------------------|---------------|---------------------|-------------------|-----------------|--------------------|
 |Text scales down as expected|yes|yes|yes|yes|yes|yes|
 |Columns align as designed|yes|yes|yes|yes|yes|yes|
-|Features hidden as should be|yes|yes|yes|n/a|yes|n/a|Compresses down to hamburder but drops under the heading|
-|Nav menu compresses to hamburger|yes|yes|yes|yes|no|yes|
+|Features hidden as should be|yes|yes|yes|n/a|yes|n/a|
+|Nav menu compresses to hamburger|yes|yes|yes|yes|no|yes|Compresses down to hamburder but drops under the heading|
 |links work|yes|yes|yes|yes|yes|yes|
 
+<br>
+<br>
 
+## Browser Compatibility
+
+<br>
+
+I tested all of the website pages in three browsers to check that everything worked, the layout and appearance remained as it should.  The three browsers I chose were the three I had easy access to on my Apple Macbook, Google Chrome, Firefox and Safari.  Everything worked as it should in Chrome and Firefox however in Safari the navigation menu was left aligned on devices larger than tablet size rather than right aligned as intended.  I am not sure if this was due to Safari being an old version and not up to date. (The operating system on my mac doesnt allow for update).
+
+|   |Google Chrome|Firefox|Safari|Notes |
+|---|-------------|-------|------|------|
+|intended appearance|Good|good|Fair|Safari is an old version on my mac, it was all ok apark from the nav menu was left aligned but not right|
+|intended responsiveness|Good|Good|Fair|
+
+<br>
+
+## Features
 
 
   Testing User Stories
@@ -583,6 +607,8 @@ Contact & Thank you page backgroud image by Andrey Petkov (https://www.pexels.co
 <br>
 
 ## Information 
+
+<br>
 
 How to link a button to specific section on a different page - (https://stackoverflow.com/questions/62307831/button-that-links-to-another-page-specific-part)
 
