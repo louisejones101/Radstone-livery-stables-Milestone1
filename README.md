@@ -1,6 +1,6 @@
 <style>
   .table1 td, th {
-    border-collapse: collapse;
+    border-color; #ffffff;
   }
   
   .table1 td {
