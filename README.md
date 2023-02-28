@@ -1,15 +1,12 @@
 <style>
   .table1 td, th {
-    border: none; !important
+    border-collapse: collapse;
   }
   
   .table1 td {
     vertical-align: top;
   }
 
-  .table2 th {
-    background-color: 
-  }
 </style>
 <br>
 
@@ -137,12 +134,9 @@ The fonts for this project were imported from Google Fonts (link in credits).  T
 
 <br>
 
-<div class="table1">
-
 | Font 1 | Font 2 | Font 3 |              
 |--------|--------|--------|
 |<img src="assets/read-me-images/Librebaskerville.png">|<img src="assets/read-me-images/Latp.png">|<img src="assets/read-me-images/oswald.png">|
-</div>
 
 <br>
 
@@ -513,7 +507,7 @@ The layout of contact page on tablet sized device (<768px) remains the same colu
 
 The table below is based off some of the devices you are offered on Google Dev Tools.
 
-<kbd>
+
 |Responsiveness|Iphone SE (375px)|Samsung Galaxy S8 (360px)|Ipad Mini (768)|Surface Pro 7 (912px)|Galaxy Fold (280px)|Nest Hub (1024px)|Notes               |
 |--------------|-----------------|-------------------------|---------------|---------------------|-------------------|-----------------|--------------------|
 |Text scales down as expected|yes|yes|yes|yes|yes|yes|
@@ -521,7 +515,7 @@ The table below is based off some of the devices you are offered on Google Dev T
 |Features hidden as should be|yes|yes|yes|n/a|yes|n/a|Compresses down to hamburder but drops under the heading|
 |Nav menu compresses to hamburger|yes|yes|yes|yes|no|yes|
 |links work|yes|yes|yes|yes|yes|yes|
-</kbd>
+
 
 
 
