@@ -325,16 +325,17 @@ ul.social-networks {
     padding: 3%;
 }
 
-.contact-intro h2, h5 {
+.contact-intro h2 {
     color: #035746;
 }
 
 .contact-intro p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    color: #22292f
 }
  
 .contact-form {
-    background-color: #22292f;
+    background-color:#035746f1;
     color:#fcf8cf; 
     border-radius: 1%; 
 }
@@ -503,9 +504,6 @@ ul.social-networks {
         font-size: 35px;
     }
 
-    .contact-intro p {
-        font-size: 16px;
-    }
 
     .thankyou-card {        
         padding: 1%;
