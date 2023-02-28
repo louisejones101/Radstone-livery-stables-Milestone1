@@ -1,3 +1,8 @@
+<style>
+  .table1 td, th {
+    border: none; !important
+  }
+</style>
 <br>
 
 # RADSTONE FARM LIVERY STABLES
@@ -124,7 +129,12 @@ The fonts for this project were imported from Google Fonts (link in credits).  T
 
 <br>
 
-<img src="assets/read-me-images/Librebaskerville.png"  width="300" height="250"><img src="assets/read-me-images/Latp.png"  width="300" height="250"><img src="assets/read-me-images/oswald.png"  width="300" height="250">
+<div class="table1">
+
+| Font 1 | Font 2 | Font 3 |              
+|--------|--------|--------|
+|<img src="assets/read-me-images/Librebaskerville.png">|<img src="assets/read-me-images/Latp.png">|<img src="assets/read-me-images/oswald.png">|
+</div>
 
 <br>
 
@@ -169,7 +179,7 @@ All pages contain a navigation bar with a menu and text logo and a footer contai
 
 <br>
 
-The logo contains the business name in their brand colours which acts as a link to the home page when clicked.  The navigation menu is a linear structure across the top of the page which then condenses down into a hamburger dropdown menu on small devices. The active page is hightlighted in bold text and in a different colour to the other links.
+The logo contains the business name in their brand colours which acts as a link to the home page when clicked.  The navigation menu is a linear structure across the top of the page.  The active page is hightlighted in bold text and in a different colour to the other links.
 
 <br>
 
@@ -177,10 +187,13 @@ The logo contains the business name in their brand colours which acts as a link 
 
 <br>
 
-<kbd><img src="assets/read-me-images/hamburger-menu.png"  width="300"></kbd>
+<div class="table1">
 
+| Smaller Devices                                |                                      |
+|------------------------------------------------|--------------------------------------|
+|<img src="assets/read-me-images/hamburger-menu.png"  width="300">|On smaller devices such as an ipad or mobile menu then condenses down into a hamburger dropdown menu.|
+</div>
 
-<br>
 <br>
 
 
@@ -418,7 +431,7 @@ In order to test the accessibility of the site I ran the pages through [Wave](ht
 
 Below shows the some of the things it flagged during the test.  As you can see from the first screenshot below Wave flagged that the active navigation button (screenshot 1) and the text on the contact page under the heading (screenshot 3) did not have enough contrast against the background. I changed this to same colour as the livery stables text as it was slightly darker.  
   
-On the facilities and contact page (screenshot 2) it suggested that the home link in the navigation menu should be different as they were the same as the the logo link.  However this is how it was intended to be so no changes were made.  
+On the facilities and contact page (screenshot 2) it suggested that the home link in the navigation menu should be different as they were the same as the the logo link.  However this is how it was intended to be so no changes were made.  Below is the results for each page after the changes were made (screenshot 4, 5, 6).
 
 <br>
 
@@ -434,14 +447,13 @@ Screenshot 3
 <kbd><img src="assets/read-me-images/text-contrast.png" width="800"></kbd>
 
 <br>
-Below is the result after the changes were made.
-<kbd><img src="assets/read-me-images/wave.png" width="400"></kbd>
 
+| Screenshot 4 | Screenshot 5 | Screenshot 6 |
+|--------------|--------------|--------------|
+|<img src="assets/read-me-images/wave.png">|<img src="assets/read-me-images/wave-facilities.png">|<img src="assets/read-me-images/wave-contact.png">
 
+<br>
 
-
-
-  
   Testing User Stories
   
   Further Testing
