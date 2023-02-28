@@ -66,7 +66,6 @@ This website was designed based on a fictious livery yard as part of the Code In
 ## Initial Discussion
 
 Radstone Farm Livery Stables is a website designed to showcase their facilities and services to potential clients.  The site consists of a home page highlighting the services and facilites at the stables as well as an about section.  It also contains a facilities page and also a contact page.  
-<br>
 
 ### Site goals
 
@@ -75,10 +74,8 @@ The goal of the website is to allow potential users of the stables to take a loo
 <br>
 
 ## User Stories
-<br>
 
 ### As a potential customer
-<br>
 
 * I want to find out about the stable and who runs it.
 
@@ -100,11 +97,8 @@ The goal of the website is to allow potential users of the stables to take a loo
 
 ## Design
 
-<br>
-
 ### Colour Scheme
 
-<br>
 The color scheme that I dediced upon were earthy brown, green, and cream.  These are the type of colours that are seen in the equine industry.  Originally the colours that were going to be used were quite bold and vibrant but it became apparent as I was building the site that a more muted, pastel version of the colours worked better.
 
 <br>
