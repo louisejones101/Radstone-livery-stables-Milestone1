@@ -329,6 +329,11 @@ In order to make the site as accessible as possible I used the [w3c guidelines](
 
 # Future Implementations
 
+A gallery
+Social media feed on page 
+footer - nav menu and contact details
+An events page -
+
 <br>
 <br>
 
@@ -590,10 +595,14 @@ For this section I manually tested every feature on every page to ensure all the
 
 <br>
 
+I have been testing throughout the build using Google dev tools.
+
 Safari nav menu - unable to change 
 Wave - text contrast -  changed 
 Wave - links being the same next to the logo link - did not change - 
 Hamburger menu alignment on very small phones 280px (ie galaxy fold) and the contact button on this size device also - did not have time to change
+Lighthouse?
+code validator
 
 <br>
 <br>
