@@ -375,6 +375,8 @@ W3C Markup Validation - to test HTML code
 
 W3C Jigsaw - to check CSS code
 
+Wave by Webaim - Used to check the accessibility of the site
+
 
 
 <br>
@@ -676,12 +678,15 @@ To check the CSS code I copied and pasted the code into the w3c css validator.  
 
 I have been testing throughout the build using Google dev tools.
 
-Safari nav menu - unable to change 
-Wave - text contrast -  changed 
-Wave - links being the same next to the logo link - did not change - 
-Hamburger menu alignment on very small phones 280px (ie galaxy fold) and the contact button on this size device also - did not have time to change
-Lighthouse  images on home page could have been sized smaller - images resized in photoshop and reloaded on to site.
-code validator - changed contact details code as errors in validator which then meant that the responsiveness of that section was not as was expected on small devices.  It was corrected by changing column widths, paddings.
+Layout issue with the navigation menu in SAFARI browser.  Unable to check if this is just because the version is old or if it is on newer updated versions because my macbook os system cannot be upgraded.
+
+Text contrast issues with the nav menu when tested with Wave.  The colour was adjusted slightly to give it more contrast.  Wave also highlighted that the home link in the logo and nav bar were next to eachother and therefore could cause confusion to a screen reader.  However I didnt not change this as I wanted the nav link to be visible aswell as have the option to go home if you click on the logo.
+
+Responsiveness - the hamburger menu alignment on very small screens 280px (ie galaxy fold) and the contact button on this size device also were not aligned as suppposed to be.  I did not change this due to time constraints.
+
+Lighthouse highlighted that the images on home page could have been sized smaller.  The images were resized in Photoshop and then reloaded on to site before running Lighthouse again.
+
+There was a problem with the code used in the contact card (used an unordered list and breaks together. Unordered list was removed and replaced with different code this then created a bug with the responsiveness of that section. The layout was not as was expected on small devices.  It was corrected by changing column widths, paddings etc.
 
 <br>
 <br>
@@ -703,6 +708,10 @@ Image opacity pseudo class, code adjusted for needs of this site - (https://stac
 Code Institute - Form dump (https://formdump.codeinstitute.net/)
 
 Hamburger drop down menu - Code Institute  -  'bootstrap your next big idea" code adapted to suit what I needed it to do.
+
+Bootstrap Cards, some of the code used and then adjusted to the needs of this site - https://getbootstrap.com/docs/5.2/components/card/
+
+Box shadows - https://www.w3schools.com/css/css3_shadows_box.asp
 
 <br> 
 
@@ -732,7 +741,7 @@ Image 3 on facilities page - indoor school by Kireyonok Yuliya (https://www.free
 
 Image 4 on facilities page by Beth Macdonald (https://unsplash.com/photos/7Y8gfWM-1dw)
 
-Contact & Thank you page backgroud image by Andrey Petkov (https://www.pexels.com)
+Contact & Thank you page background image by Andrey Petkov (https://www.pexels.com)
 
 <br>
 
@@ -751,6 +760,11 @@ w3c accessibility guidelines checklist - https://www.w3.org/WAI/test-evaluate/pr
 <br>
 
 # Acknowledgments
+
+<br>
+My mentor Elaine Roche for answering all my questions.
+Student support and Iris the cohort facilitator for checking in on me and encouraging me to keep going when I was 6 weeks behind schedule due to work commitments.  
+Tutor support for giving me advice on how to use Github when I first started
 
 <br>
 
