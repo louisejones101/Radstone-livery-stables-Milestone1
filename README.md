@@ -1,7 +1,10 @@
+<br>
+
 # RADSTONE FARM LIVERY STABLES
 <br>
 This website was designed based on a fictious livery yard as part of the Code Insitute Milestone 1 project.  The project was to build a static front end website using HTML, CSS and Bootstrap and/or other CSS libraries or frameworks. It is a responsive website that can be viewed on a wide range of devices.  
 
+<br>
 <br>
 
 [View the Radstone Farm Livery Stables website here](https://louisejones101.github.io/Radstone-livery-stables-Milestone1/)
@@ -293,7 +296,20 @@ The page has the same header and footer as the other pages and the same colour s
 # Accessibility
 
 <br>
-ggygy
+
+In order to make the site as accessible as possible I used the [w3c guidelines](https://www.w3.org/WAI/test-evaluate/preliminary/). 
+
+
+* The font families and font size were chosen for their easy readability.
+
+* Colours for the backgrounds and the text where chosen to give as much contrast as possible for users to be able to see the text clearly.  During testing using [Wave](https://wave.webaim.org/) some of the text flagged as having slight contrast issues so changes were made to improve this (discussed in [testing](#testing) below).
+
+* Alt tags with clear descriptive text were given to each of the images on the site.
+
+* A clear structure to the flow of the site and appropriate headings on the page in order of importance.
+
+* Aria-labels added to the form and the social media icon links to allow them to be read by screen readers.
+
 
 <br>
 <br>
@@ -394,11 +410,43 @@ How to clone the repository:-
 
 <br>  W3c Validator
 
-  Lighthouse
+Lighthouse
+
+## Accessibility Testing
+
+In order to test the accessibility of the site I ran the pages through [Wave](https://wave.webaim.org/) to see if it highlighted any issues.
+
+Below shows the some of the things it flagged during the test.  As you can see from the first screenshot below Wave flagged that the active navigation button (screenshot 1) and the text on the contact page under the heading (screenshot 3) did not have enough contrast against the background. I changed this to same colour as the livery stables text as it was slightly darker.  
+  
+On the facilities and contact page (screenshot 2) it suggested that the home link in the navigation menu should be different as they were the same as the the logo link.  However this is how it was intended to be so no changes were made.  
+
+<br>
+
+Screenshot 1
+<kbd><img src="assets/read-me-images/contrast-errors-wave.png" width="800"></kbd>
+
+<br>
+Screenshot 2
+<kbd><img src="assets/read-me-images/link-errors.png" width="800"></kbd>
+
+<br>
+Screenshot 3
+<kbd><img src="assets/read-me-images/text-contrast.png" width="800"></kbd>
+
+<br>
+Below is the result after the changes were made.
+<kbd><img src="assets/read-me-images/wave.png" width="400"></kbd>
+
+
+
+
+
   
   Testing User Stories
   
   Further Testing
+
+  
   
 <br>
 
@@ -464,6 +512,8 @@ How to link a button to specific section on a different page - (https://stackove
 Wordpress Markdown Cheetsheet - (https://wordpress.com/support/markdown-quick-reference/)
 
 How to fork and clone a repository - (https://docs.github.com/en/get-started/quickstart/fork-a-repo)
+
+w3c accessibility guidelines checklist - https://www.w3.org/WAI/test-evaluate/preliminary/
 
 <br>
 
