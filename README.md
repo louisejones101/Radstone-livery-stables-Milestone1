@@ -25,7 +25,7 @@ This website was designed based on a fictious livery yard as part of the Code In
 # Contents
 <br>
 
-* [User Experience (UX)](#ser-experience-(ux))
+* [User Experience (UX)](#user-experience-(ux))
   * [Initial Discussion](#initial-discussion)
     * [Site Goals](#site-goals)
   * [User Stories](#user-stories)
@@ -34,11 +34,6 @@ This website was designed based on a fictious livery yard as part of the Code In
     * [Typography](#typography)
     * [Imagery](#imagery)
     * [Wireframes](#wireframes)
-      * [Home Page Wireframe](#home-page-wireframe)
-      * [Facilities Wireframe](#facilities-wireframe)
-      * [Contact Page Wireframe](#contact-page-wireframe)
-      * [Mobile Wireframe](#mobile-wireframe)
-      * [Ipad Wireframe](#ipad-wireframe)
   * [Page Features](#page-features)
   * [Accessibility](#accessibility)
   * [Future Implementations](#future-implementations)
@@ -46,13 +41,22 @@ This website was designed based on a fictious livery yard as part of the Code In
   * [Languages Used](#languages-used)
   * [Fameworks Libraries and Programs Used](#frameworks-libraries-and-programs-used)
 * [Testing](#testing)
+  * [Accessibility Testing](#accessibility-testing)
+  * [Responsiveness](#responsiveness)
+  * [Browser Compatibility](#browser-compatibility)
+  * [Features](#features)
+  * [Testing User Stories](#testing-user-stories)
+  * [Lighthouse](#lighthouse)
+  * [W3C Validator](#w3c-validator)
+  * [W3C Jigsaw](#w3c-jigsaw)
 * [Bugs](#bugs)
-* [Deployment and Local Development](#deployment-and-local-evelopment)
-  * [Deployment Instructions](#deployment-instructions)
+* [Deployment and Local Development](#deployment-and-local-development)
+  * [Deployment Instructions](#deployment)
   * [Local Development](#local-development)
-* [Credits Section](#credits-section)
+* [Credit Section](#credit-section)
   * [Code Used](#code-used)
   * [Content](#content)
+  * [Images](#images)
   * [information](#information)
 * [Acknowledgements](#acknowledgments)
 
@@ -121,18 +125,13 @@ The fonts for this project were imported from Google Fonts (link in credits).  T
 
 ### Imagery
 
-The pictures used for his site were sourced from online websites that offer free images (these are listed in the credits section). 
-
-The images were resized using Photoshop and compressed with Tiny PNG in order to reduce loading time.
+The pictures used for his site were sourced from online websites that offer free images (these are listed in the credits section). The images were resized using Photoshop and compressed with Tiny PNG in order to reduce loading time.
 
 <br>
 
-## Wireframes
-
+### Wireframes
 
 The wireframes for this project were created by hand on the Ipad in Procreate.
-
-<br>
 
 ### Home page desktop wireframe
 
@@ -170,15 +169,15 @@ The wireframes for this project were created by hand on the Ipad in Procreate.
 
 <br>
 
-# Page Features
+## Page Features
 
 The website consists of a three accessible pages (home, facilities, contact) and a seperate thank you page that appears after the user has submitted a message via the contact form.
 
-All pages contain a navigation bar with a menu and text logo and a footer containing links to the social media icons and copyright text.
+All pages contain a navigation bar with a menu and text logo and a footer containing links to the social media icons and copyright text. All the buttons on the site become hightlighted in a slightly lighter colour when the user hovers over the button to encourage them to click.
 
 <br>
 
-## Logo and navigation menu
+### Logo and navigation menu
 
 The logo contains the business name in their brand colours which acts as a link to the home page when clicked.  The navigation menu is a linear structure across the top of the page.  The active page is hightlighted in bold text and in a different colour to the other links.
 
@@ -199,8 +198,6 @@ The logo contains the business name in their brand colours which acts as a link 
 
 The footer contains icons which link to the social media accouts of the business and once clicked open in a serperate window.
 
-All the buttons on the site become hightlighted in a slightly lighter colour when the user hovers over the button to encourage them to click.
-
 <br>
 
 <kbd><img src="assets/read-me-images/footer.png"  width="800"></kbd>
@@ -208,9 +205,7 @@ All the buttons on the site become hightlighted in a slightly lighter colour whe
 <br>
 <br>
 
-## Front page
-
-<br>
+### Front page
 
 The front page has a landscape hero image leading into an about section. 
 
@@ -239,7 +234,7 @@ The next section on this page is a full length banner in list format which highl
 <br>
 <br>
 
-## Facilities page
+### Facilities page
 
 When the user arrives on the facilities page they are greeted by a large clear image of the stable layout inside and a bullet list of the facilities.  
 
@@ -268,7 +263,7 @@ The final section on the facilities page contains three columns in an easy to re
 <br>
 <br>
 
-## Contact page
+### Contact page
 
 The final page that is available to the user directly is the contact page.  This has the title of the page and a sentence suggesting the user contacts the stables if they have any questions.  This is in a banner style with the background colour the same as the footer on the page.  The main body of the page has a slightly transparent background image to provide a bit of interest to the page.  On top of this image are two card columns.  The first column contains a contact form with clear labels for the users first name, surname, email and a text box to add a message.  The user must enter something in each box of the form in order to be able to send the message using the submit button.  
 
@@ -277,6 +272,7 @@ The final page that is available to the user directly is the contact page.  This
 <kbd><img src="assets/read-me-images/contactpage.png" width="800"></kbd>
 
 <br>
+<br>
 
 In order to check that the form was working and the information that was entered was captured correctly, I connected the form to Code Institute from dump using the link that was provided in the love running project (as seen in the screen shots).  Then removed the link and replaced it with a link to the Thankyou page and then changed the method from post to get.  Below are the screen shots of the code used to send the form details and the captured details.  
 
@@ -284,16 +280,20 @@ In the second column of the Contact page there is similarly styled card to the c
 
 <br>
 
+### Form dump code screenshot
+
 <kbd><img src="assets/read-me-images/formdumpcode.png" width="800"></kbd>  
 
 <br>
+
+### Form dump capture screenshot
 
 <kbd><img src="assets/read-me-images/formdump.png" width="800"></kbd>
 
 <br>
 <br>
 
-## Thank you page
+### Thank you page
 
 The thank you page only becomes accessible once you have submitted a message (I removed the post link to send the submitted data to the form dump and replaced it with get and the link to the thank you page).  
 
@@ -306,7 +306,7 @@ The page has the same header and footer as the other pages and the same colour s
 <br>
 <br>
 
-# Accessibility
+## Accessibility testing
 
 In order to make the site as accessible as possible I used the [w3c guidelines](https://www.w3.org/WAI/test-evaluate/preliminary/). 
 
@@ -323,17 +323,17 @@ In order to make the site as accessible as possible I used the [w3c guidelines](
 <br>
 <br>
 
-# Future Implementations
+## Future Implementations
 
 Future additions that could be added to the site:-
 
-A gallery with more photos showcasing the stables, maybe the staff and some of the horses.  
+* A gallery with more photos showcasing the stables, maybe the staff and some of the horses.  
 
-A social media feed somewhere on the site so users can see some up-to-date content and to give a bit of interest to the site as the information is quite static on the site.
+* A social media feed somewhere on the site so users can see some up-to-date content and to give a bit of interest to the site as the information is quite static on the site.
 
-A navigation menu and contact details in the footer.  As the some of the pages have a bit of scrolling, the user can then click on a nav link at the bottom rather than scroll back up to the top which is currently the case.
+* A navigation menu and contact details in the footer.  As the some of the pages have a bit of scrolling, the user can then click on a nav link at the bottom rather than scroll back up to the top which is currently the case.
 
-An events page that can be changed regularly to show the up and coming events at the yard and their details.
+* An events page that can be changed regularly to show the up and coming events at the yard and their details.
 
 <br>
 <br>
@@ -377,7 +377,254 @@ Wave by Webaim - Used to check the accessibility of the site
 <br>
 <br>
 
+# Testing
+
+<br>
+
+## Accessibility
+
+In order to test the accessibility of the site I ran the pages through [Wave](https://wave.webaim.org/) to see if it highlighted any issues.
+
+Below shows the some of the things it flagged during the test.  As you can see from the first screenshot below Wave flagged that the active navigation button (screenshot 1) and the text on the contact page under the heading (screenshot 3) did not have enough contrast against the background. I changed this to same colour as the livery stables text as it was slightly darker.  
+  
+On the facilities and contact page (screenshot 2) it suggested that the home link in the navigation menu should be different as they were the same as the the logo link.  However this is how it was intended to be so no changes were made.  Below is the results for each page after the changes were made (screenshot 4, 5, 6).
+
+<br>
+
+Screenshot 1
+<kbd><img src="assets/read-me-images/contrast-errors-wave.png" width="800"></kbd>
+
+<br>
+
+Screenshot 2
+<kbd><img src="assets/read-me-images/link-errors.png" width="800"></kbd>
+
+<br>
+
+Screenshot 3
+<kbd><img src="assets/read-me-images/text-contrast.png" width="800"></kbd>
+
+<br>
+
+<div class="table1">
+
+| Screenshot 4 | Screenshot 5 | Screenshot 6 |
+|--------------|--------------|--------------|
+|<img src="assets/read-me-images/wave.png" width="300">|<img src="assets/read-me-images/wave-facilities.png" width="300">|<img src="assets/read-me-images/wave-contact.png" width="300">
+
+</div>
+
+<br>
+<br>
+
+## Responsiveness
+
+To test that the site is responsive on a wide range of sizes I used Google Dev Tools. Visually the website scaled down well from the desktop version to tablet devices, and the different average mobile sizes. 
+
+### Contact page
+
+The layout of contact page on tablet sized device (<768px) remains the same column layout as the desktop however the services layout becomes a two column list not four.   On a mobile devices (<425px) the image on the left of the about page is hidden, the list of services becomes a one column list and the image alongside the facilities section moves down to underneath the text and becomes full width.
+
+<br>
+
+<strong>Contact page screenshots</strong>
+
+<div class="table1">
+
+|Tablet <768px|Mobiles <425px|   
+|-------------|--------------|
+|<img src="assets/read-me-images/tabletresponsive.png">|<img src="assets/read-me-images/contactmobile.png">|<img src="assets/read-me-images/mobilecontact2.png">|
+
+</div>
+
+<br>
+
+<strong>Facilities page screenshots</strong>
+
+<div class="table1">
+
+|Tablet <768px|Mobiles <425px|   
+|-------------|--------------|
+|<img src="assets/read-me-images/tablet2.png">|<img src="assets/read-me-images/mobile2.png">|
+
+</div>
+
+<br>
+
+<strong>Contact page screenshots</strong>
+
+<div class="table1">
+
+|Tablet <768px|Mobiles <425px|
+|-------------|--------------|
+|<img src="assets/read-me-images/tabletthankyou.png" width="400">|<img src="assets/read-me-images/mobile4.png" width="300">|
+
+</div>
+
+<br>
+<br>
+
+The table below contains responsiveness results for some of the devices you are offered on Google Dev Tools.
+
+|Responsiveness|Iphone SE (375px)|Samsung Galaxy S8 (360px)|Ipad Mini (768)|Surface Pro 7 (912px)|Galaxy Fold (280px)|Nest Hub (1024px)|Notes               |
+|--------------|-----------------|-------------------------|---------------|---------------------|-------------------|-----------------|--------------------|
+|Text scales down as expected|yes|yes|yes|yes|yes|yes|
+|Columns align as designed|yes|yes|yes|yes|yes|yes|
+|Features hidden as should be|yes|yes|yes|n/a|yes|n/a|
+|Nav menu compresses to hamburger|yes|yes|yes|yes|no|yes|Compresses down to hamburder but drops under the heading also contact us button on facilities page text no fully visible|
+|links work|yes|yes|yes|yes|yes|yes|
+
+<br>
+<br>
+
+## Browser Compatibility
+
+I tested all of the website pages in three browsers to check that everything worked, the layout and appearance remained as it should.  The three browsers I chose were the three I had easy access to on my Apple Macbook, Google Chrome, Firefox and Safari.  Everything worked as it should in Chrome and Firefox however in Safari the navigation menu was left aligned on devices larger than tablet size rather than right aligned as intended.  I am not sure if this was due to Safari being an old version and not up to date. (The operating system on my mac doesnt allow for update).
+
+|   |Google Chrome|Firefox|Safari|Notes |
+|---|-------------|-------|------|------|
+|intended appearance|Good|good|Fair|Safari is an old version on my mac, it was all ok apark from the nav menu was left aligned but not right|
+|intended responsiveness|Good|Good|Fair|
+
+<br>
+<br>
+
+## Features
+
+For this section I manually tested every feature on every page to ensure all the links/buttons/form did as they should.  Below are the results.
+
+<br>
+
+|Feature|Test|Outcome|
+|-------|----|-------|
+|Home page logo in left corner|Hover over|Shows a link to the index.html page|
+|Navigation Menu links on home page|Click on|They all take you to the correct page|
+|Home page 'Livery packages' button|Click on|Takes you to the correct section in on the livery page|
+|Home page 'facilities' button|Click on|Takes you to livery page|
+|Social media icons on home page|Click on|Take you to relevant social media in new window|
+|Facilities page logo in left corner|Hover over|Shows a link to the index.html page|
+|Navigation Menu links on facilities page|Click on|They all take you to the correct page|
+|Facilities page contact us button|Click on|Link inactive - spelling mistake in code, changed and link was then correct|
+|Social media icons on home page|Click on|Take you to relevant social media in new window|
+|Contact us page logo in left corner|Hover over|Shows a link to the index.html page|
+|Navigation Menu links on contact page|Click on|They all take you to the correct page|
+|Form data imput boxes|Attempt to send the form without filling out all sections|Error message stating you all boxes are required|
+|Form send button|Click on (after filling out correctly)|Takes you to a Thank you page|
+|All links on thank you page and button|Click on|Working correctly|
+
+<br>
+<br>
+
+## Testing User Stories
+
+|User Story|Testing|
+|-------|----|
+|I want to find out about the stable and who runs it.|Home page first section has write up about the stables and the owners name.|
+|I want to be able to see straight away that it is a livery stables.|Livery Stables is in the Header of each page and mentioned throughout the site|
+|I want to be able to see visually with clear photographs what the stables/facilities look like.|Photographs showing the horses, the facilities and the owner|
+|I want to see what services are provided by the stables.| Services are listed on the front page|
+|I want to be able to see the livery packages available and their prices.|A livery package cta button is on the front page.  This then takes you to a livery section where the information of each package and prices are clearly listed|
+|I want to be able to find the contact details easily and contact the stables directly from the site if I have any questions.| Contact links on nav of every page.  Contact page has all the contact information clearly set out as well as a contact form|
+|I want to be able to access the pages I need easily.|All pages are able to be accessed via the navigation bar and cta buttons positioned on each page|
+|I want to be able to access their social media pages.|Social media icons in the footer of each page|
+  
+<br>
+<br>
+
+## Lighthouse
+
+As part of the testing I used Lighthouse in Google Chrome to test the performance, accessibility, best practices and SEO.  I tested both on desktop and on mobile.  Lighthouse rated the website on both desktop and mobile as really good.  On both the desktop and mobile it scored 100% in accessibility and SEO and 92% best practises.  For performance its scored the site on desktop as 97% and the mobile a tiny bit better at 99%.  Below are screenshots of the results from the lighthouse panel.
+
+<br>
+
+| Lighthouse Desktop | Lighthouse Mobile |
+|--------------------|-------------------|
+|<img src="assets/read-me-images/lighthousedesktop.png">|<img src="assets/read-me-images/lighthousemobile.png">|
+
+<br>
+
+## W3C Validator
+
+The HTML code from each page on the site was copied into the validator to check it.  On the home page it hightlighted that the first 'section' would be better off as a div as it did not contain a heading.  I changed it on this page and the others before I took a screenshot of the validator screen.  So I only have a screenshot of the code results after it had been changed.
+
+The Facilities page showed that there was an issue with two of the 'p' tags in the card columns.  When I checked the code the closing 'p' tags were in the wrong place.
+
+On the Contact page I had used a unordered list for the contact address, email and telephone number with 'br' in to create space.  It highlighted that breaks should not be used in a unordered list so I removed the list format all together and reaplaced them with the 'address' tag and 'br' for the space I needed to get the ions level.
+
+The Thank you page went through the validator without any changes needed.
+
+<br>
+
+<strong>Home page after changes</strong>
+
+<kbd><img src="assets/read-me-images/validator1.png" width="400"></kbd>
+
+<br>
+
+<div class="table1">
+
+| Facilities page before | Facilities page after |
+|------------------------|-----------------------|
+|<img src="assets/read-me-images/validator2.png">|<img src="assets/read-me-images/validator3.png">|
+</div>
+
+<br>
+
+<div class="table1">
+
+| Contact page before | Contact page after |
+|------------------------|-----------------------|
+|<img src="assets/read-me-images/validator4.png">|<img src="assets/read-me-images/validator5.png">|
+
+</div>
+
+<br>
+
+<strong>Home page after changes</strong>
+
+<kbd><img src="assets/read-me-images/validator6.png" width="400"></kbd>
+
+<br>
+<br>
+
+## W3C Jigsaw
+
+To check the CSS code I copied and pasted the code into the w3c css validator.  It highlighted one error with a 'position: center'.  It was meant to be "text-align-center".  After the change had been made in the CSS file, the code was re-run through the validator and came back with no errors.
+
+<br>
+
+<div class="table1">
+
+| CSS before | CSS after |
+|------------------------|-----------------------|
+|<img src="assets/read-me-images/cssvalidator1.png">|<img src="assets/read-me-images/cssvalidator2.png">|
+
+</div>
+
+<br>
+<br>
+
+# Bugs
+
+I have been testing throughout the build using Google dev tools.
+
+Layout issue with the navigation menu in SAFARI browser.  Unable to check if this is just because the version is old or if it is on newer updated versions because my macbook os system cannot be upgraded.
+
+Text contrast issues with the nav menu when tested with Wave.  The colour was adjusted slightly to give it more contrast.  Wave also highlighted that the home link in the logo and nav bar were next to eachother and therefore could cause confusion to a screen reader.  However I didnt not change this as I wanted the nav link to be visible aswell as have the option to go home if you click on the logo.
+
+Responsiveness - the hamburger menu alignment on very small screens 280px (ie galaxy fold) and the contact button on this size device also were not aligned as suppposed to be.  I did not change this due to time constraints.
+
+Lighthouse highlighted that the images on home page could have been sized smaller.  The images were resized in Photoshop and then reloaded on to site before running Lighthouse again.
+
+There was a problem with the code used in the contact card (used an unordered list and breaks together. Unordered list was removed and replaced with different code this then created a bug with the responsiveness of that section. The layout was not as was expected on small devices.  It was corrected by changing column widths, paddings etc.
+
+<br>
+<br>
+
+
 # Deployment and Local Development
+
+## Deployment
 
 The site is deployed using GitHub pages
 
@@ -418,256 +665,6 @@ How to clone the repository:-
 5.  Change the working directory to where you want to put the cloned directory
 6.  Type 'git clone' and then add the URL
 7.  Press enter
-
-<br>
-<br>
-
-# Testing
-
-<br>
-
-## Accessibility Testing
-
-In order to test the accessibility of the site I ran the pages through [Wave](https://wave.webaim.org/) to see if it highlighted any issues.
-
-Below shows the some of the things it flagged during the test.  As you can see from the first screenshot below Wave flagged that the active navigation button (screenshot 1) and the text on the contact page under the heading (screenshot 3) did not have enough contrast against the background. I changed this to same colour as the livery stables text as it was slightly darker.  
-  
-On the facilities and contact page (screenshot 2) it suggested that the home link in the navigation menu should be different as they were the same as the the logo link.  However this is how it was intended to be so no changes were made.  Below is the results for each page after the changes were made (screenshot 4, 5, 6).
-
-<br>
-
-Screenshot 1
-<kbd><img src="assets/read-me-images/contrast-errors-wave.png" width="800"></kbd>
-
-<br>
-
-Screenshot 2
-<kbd><img src="assets/read-me-images/link-errors.png" width="800"></kbd>
-
-<br>
-
-Screenshot 3
-<kbd><img src="assets/read-me-images/text-contrast.png" width="800"></kbd>
-
-<br>
-
-<div class="table1">
-
-| Screenshot 4 | Screenshot 5 | Screenshot 6 |
-|--------------|--------------|--------------|
-|<img src="assets/read-me-images/wave.png" width="300">|<img src="assets/read-me-images/wave-facilities.png" width="300">|<img src="assets/read-me-images/wave-contact.png" width="300">
-
-</div>
-
-<br>
-<br>
-
-## Responsiveness
-
-To test that the site is responsive on a wide range of sizes I used Google Dev Tools.   
-
-Visually the website scaled down well from the desktop version to tablet devices, and the different average mobile sizes. 
-
-### Contact page
-
-The layout of contact page on tablet sized device (<768px) remains the same column layout as the desktop however the services layout becomes a two column list not four.   On a mobile devices (<425px) the image on the left of the about page is hidden, the list of services becomes a one column list and the image alongside the facilities section moves down to underneath the text and becomes full width.
-
-<br>
-
-<strong>Contact page screenshots</strong>
-
-<div class="table1">
-
-|Tablet <768px|Mobiles <425px|   
-|-------------|--------------|
-|<img src="assets/read-me-images/tabletresponsive.png">|<img src="assets/read-me-images/contactmobile.png">|<img src="assets/read-me-images/mobilecontact2.png">|
-
-</div>
-
-<br>
-
-<strong>Facilities page screenshots</strong>
-
-<br>
-
-<div class="table1">
-
-|Tablet <768px|Mobiles <425px|   
-|-------------|--------------|
-|<img src="assets/read-me-images/tablet2.png">|<img src="assets/read-me-images/mobile2.png">|
-
-</div>
-
-<br>
-
-<strong>Contact page screenshots</strong>
-
-<br>
-
-<div class="table1">
-
-|Tablet <768px|Mobiles <425px|
-|-------------|--------------|
-|<img src="assets/read-me-images/tabletthankyou.png" width="400">|<img src="assets/read-me-images/mobile4.png" width="300">|
-
-</div>
-
-<br>
-<br>
-
-The table below is based off some of the devices you are offered on Google Dev Tools.
-
-<br>
-
-|Responsiveness|Iphone SE (375px)|Samsung Galaxy S8 (360px)|Ipad Mini (768)|Surface Pro 7 (912px)|Galaxy Fold (280px)|Nest Hub (1024px)|Notes               |
-|--------------|-----------------|-------------------------|---------------|---------------------|-------------------|-----------------|--------------------|
-|Text scales down as expected|yes|yes|yes|yes|yes|yes|
-|Columns align as designed|yes|yes|yes|yes|yes|yes|
-|Features hidden as should be|yes|yes|yes|n/a|yes|n/a|
-|Nav menu compresses to hamburger|yes|yes|yes|yes|no|yes|Compresses down to hamburder but drops under the heading also contact us button on facilities page text no fully visible|
-|links work|yes|yes|yes|yes|yes|yes|
-
-<br>
-<br>
-
-## Browser Compatibility
-
-I tested all of the website pages in three browsers to check that everything worked, the layout and appearance remained as it should.  The three browsers I chose were the three I had easy access to on my Apple Macbook, Google Chrome, Firefox and Safari.  Everything worked as it should in Chrome and Firefox however in Safari the navigation menu was left aligned on devices larger than tablet size rather than right aligned as intended.  I am not sure if this was due to Safari being an old version and not up to date. (The operating system on my mac doesnt allow for update).
-
-|   |Google Chrome|Firefox|Safari|Notes |
-|---|-------------|-------|------|------|
-|intended appearance|Good|good|Fair|Safari is an old version on my mac, it was all ok apark from the nav menu was left aligned but not right|
-|intended responsiveness|Good|Good|Fair|
-
-<br>
-
-## Features
-
-For this section I manually tested every feature on every page to ensure all the links/buttons/form did as they should.  Below are the results.
-
-<br>
-
-
-|Feature|Test|Outcome|
-|-------|----|-------|
-|Home page logo in left corner|Hover over|Shows a link to the index.html page|
-|Navigation Menu links on home page|Click on|They all take you to the correct page|
-|Home page 'Livery packages' button|Click on|Takes you to the correct section in on the livery page|
-|Home page 'facilities' button|Click on|Takes you to livery page|
-|Social media icons on home page|Click on|Take you to relevant social media in new window|
-|Facilities page logo in left corner|Hover over|Shows a link to the index.html page|
-|Navigation Menu links on facilities page|Click on|They all take you to the correct page|
-|Facilities page contact us button|Click on|Link inactive - spelling mistake in code, changed and link was then correct|
-|Social media icons on home page|Click on|Take you to relevant social media in new window|
-|Contact us page logo in left corner|Hover over|Shows a link to the index.html page|
-|Navigation Menu links on contact page|Click on|They all take you to the correct page|
-|Form data imput boxes|Attempt to send the form without filling out all sections|Error message stating you all boxes are required|
-|Form send button|Click on (after filling out correctly)|Takes you to a Thank you page|
-|All links on thank you page and button|Click on|Working correctly|
-
-<br>
-
-## Testing User Stories
-
-|User Story|Testing|
-|-------|----|
-|I want to find out about the stable and who runs it.|Home page first section has write up about the stables and the owners name.|
-|I want to be able to see straight away that it is a livery stables.|Livery Stables is in the Header of each page and mentioned throughout the site|
-|I want to be able to see visually with clear photographs what the stables/facilities look like.|Photographs showing the horses, the facilities and the owner|
-|I want to see what services are provided by the stables.| Services are listed on the front page|
-|I want to be able to see the livery packages available and their prices.|A livery package cta button is on the front page.  This then takes you to a livery section where the information of each package and prices are clearly listed|
-|I want to be able to find the contact details easily and contact the stables directly from the site if I have any questions.| Contact links on nav of every page.  Contact page has all the contact information clearly set out as well as a contact form|
-|I want to be able to access the pages I need easily.|All pages are able to be accessed via the navigation bar and cta buttons positioned on each page|
-|I want to be able to access their social media pages.|Social media icons in the footer of each page|
-  
-<br>
-
-## Lighthouse
-
-As part of the testing I used Lighthouse in Google Chrome to test the performance, accessibility, best practices and SEO.  I tested both on desktop and on mobile.  Lighthouse rated the website on both desktop and mobile as really good.  On both the desktop and mobile it scored 100% in accessibility and SEO and 92% best practises.  For performance its scored the site on desktop as 97% and the mobile a tiny bit better at 99%.  Below are screenshots of the results from the lighthouse panel.
-
-<br>
-
-| Lighthouse Desktop | Lighthouse Mobile |
-|--------------------|-------------------|
-|<img src="assets/read-me-images/lighthousedesktop.png">|<img src="assets/read-me-images/lighthousemobile.png">|
-
-<br>
-
-## W3c Markup Validator
-
-The HTML code from each page on the site was copied into the validator to check it.  On the home page it hightlighted that the first 'section' would be better off as a div as it did not contain a heading.  I changed it on this page and the others before I took a screenshot of the validator screen.  So I only have a screenshot of the code results after it had been changed.
-
-The Facilities page showed that there was an issue with two of the 'p' tags in the card columns.  When I checked the code the closing 'p' tags were in the wrong place.
-
-On the Contact page I had used a unordered list for the contact address, email and telephone number with 'br' in to create space.  It highlighted that breaks should not be used in a unordered list so I removed the list format all together and reaplaced them with the 'address' tag and 'br' for the space I needed to get the ions level.
-
-The Thank you page went through the validator without any changes needed.
-
-<br>
-
-<strong>Home page after changes</strong>
-
-<kbd><img src="assets/read-me-images/validator1.png" width="400"></kbd>
-
-<br>
-
-<div class="table1">
-
-| Facilities page before | Facilities page after |
-|------------------------|-----------------------|
-|<img src="assets/read-me-images/validator2.png">|<img src="assets/read-me-images/validator3.png">|
-</div>
-
-
-<br>
-
-<div class="table1">
-
-| Contact page before | Contact page after |
-|------------------------|-----------------------|
-|<img src="assets/read-me-images/validator4.png">|<img src="assets/read-me-images/validator5.png">|
-
-</div>
-
-<br>
-
-<strong>Home page after changes</strong>
-
-<kbd><img src="assets/read-me-images/validator6.png" width="400"></kbd>
-
-<br>
-
-## w3c Jigsaw
-
-To check the CSS code I copied and pasted the code into the w3c css validator.  It highlighted one error with a 'position: center'.  It was meant to be "text-align-center".  After the change had been made in the CSS file, the code was re-run through the validator and came back with no errors.
-
-<br>
-
-<div class="table1">
-
-| CSS before | CSS after |
-|------------------------|-----------------------|
-|<img src="assets/read-me-images/cssvalidator1.png">|<img src="assets/read-me-images/cssvalidator2.png">|
-
-</div>
-
-<br>
-<br>
-
-# Bugs
-
-I have been testing throughout the build using Google dev tools.
-
-Layout issue with the navigation menu in SAFARI browser.  Unable to check if this is just because the version is old or if it is on newer updated versions because my macbook os system cannot be upgraded.
-
-Text contrast issues with the nav menu when tested with Wave.  The colour was adjusted slightly to give it more contrast.  Wave also highlighted that the home link in the logo and nav bar were next to eachother and therefore could cause confusion to a screen reader.  However I didnt not change this as I wanted the nav link to be visible aswell as have the option to go home if you click on the logo.
-
-Responsiveness - the hamburger menu alignment on very small screens 280px (ie galaxy fold) and the contact button on this size device also were not aligned as suppposed to be.  I did not change this due to time constraints.
-
-Lighthouse highlighted that the images on home page could have been sized smaller.  The images were resized in Photoshop and then reloaded on to site before running Lighthouse again.
-
-There was a problem with the code used in the contact card (used an unordered list and breaks together. Unordered list was removed and replaced with different code this then created a bug with the responsiveness of that section. The layout was not as was expected on small devices.  It was corrected by changing column widths, paddings etc.
 
 <br>
 <br>
@@ -737,5 +734,7 @@ w3c accessibility guidelines checklist - https://www.w3.org/WAI/test-evaluate/pr
 My mentor Elaine Roche for answering all my questions.
 Student support and Iris the cohort facilitator for checking in on me and encouraging me to keep going when I was 6 weeks behind schedule due to work commitments.  
 Tutor support for giving me advice on how to use Github when I first started
+
+<br>
 
 
