@@ -616,6 +616,8 @@ Lighthouse highlighted that the images on home page could have been sized smalle
 
 There was a problem with the code used in the contact card (used an unordered list and breaks together. Unordered list was removed and replaced with different code.  This then created a bug with the responsiveness of that section. The layout was not as was expected on small devices.  It was corrected by changing column widths, paddings etc.
 
+I noticed after I had done all the tests and written this readme whilst doing a final check on the site before submitting that the prices of the livery packages has aligned themselves left.  Bug fixed.
+
 <br>
 <br>
 
