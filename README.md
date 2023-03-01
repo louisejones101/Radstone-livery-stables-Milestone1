@@ -33,7 +33,7 @@ This website was designed based on a fictious livery yard as part of the Code In
     * [Colour Scheme](#colour-scheme)
     * [Typography](#typography)
     * [Imagery](#imagery)
-    * [Wireframes](#wireframes)
+  * [Wireframes](#wireframes)
   * [Page Features](#page-features)
   * [Accessibility](#accessibility)
   * [Future Implementations](#future-implementations)
@@ -69,11 +69,11 @@ This website was designed based on a fictious livery yard as part of the Code In
 
 ## Initial Discussion
 
-Radstone Farm Livery Stables is a website designed to showcase their facilities and services to potential clients.  The site consists of a home page highlighting the services and facilites at the stables as well as an about section.  It also contains a facilities page and also a contact page.  
+Radstone Farm Livery Stables website is designed to showcase their facilities and services to potential clients.  The site consists of a home page highlighting the services and facilites at the stables as well as an about section.  It also contains a facilities page and contact page.  
 
 ### Site goals
 
-The goal of the website is to allow potential users of the stables to take a look at the premises, find information about the stable facilities such as the riding school and tack room as well as see what services the stables provide. The users will be able to see the livery packages offered, their prices and also be able to contact the stables should they wish to.  The site needs to be accessible on various devices, easy to navigate and visually appealing.
+The goal of the website is to allow potential users of the stables to take a look at the premises, find information about the stable facilities such as the riding school and see the services provided. The users will be able to see the livery packages offered, their prices and also be able to contact the stables should they wish to.  The site needs to be accessible on various devices, easy to navigate and visually appealing.
 
 <br>
 
@@ -103,7 +103,7 @@ The goal of the website is to allow potential users of the stables to take a loo
 
 ### Colour Scheme
 
-The color scheme that I dediced upon were earthy brown, green, and cream.  These are the type of colours that are seen in the equine industry.  Originally the colours that were going to be used were quite bold and vibrant but it became apparent as I was building the site that a more muted, pastel version of the colours worked better.
+The color scheme chosen was an earthy brown, green, and cream.  These are the type of colours that are seen in the equine industry.  Originally the colours that were going to be used were quite bold and vibrant but it became apparent as the site was being built that a more muted, pastel version of the colours worked better.
 
 <br>
 
@@ -113,7 +113,7 @@ The color scheme that I dediced upon were earthy brown, green, and cream.  These
 
 ### Typography
 
-The fonts for this project were imported from Google Fonts (link in credits).  The fonts chosen were libre-baskerville for the main text on the site, Lato for the headings and Oswald for the small titles. All three of these fonts are easy to read and spaced nicely. 
+The fonts for this project were imported from Google Fonts (link in credits).  The fonts chosen were Libre-baskerville for the main text on the site, Lato for the headings and Oswald for the small titles. All three of these fonts are easy to read and spaced nicely. 
 
 <br>
 
@@ -125,11 +125,11 @@ The fonts for this project were imported from Google Fonts (link in credits).  T
 
 ### Imagery
 
-The pictures used for his site were sourced from online websites that offer free images (these are listed in the credits section). The images were resized using Photoshop and compressed with Tiny PNG in order to reduce loading time.
+The pictures used for his site were sourced from online websites that offer free images (these are listed in the [credit section](#credit-section)). The images were resized using Photoshop and compressed with Tiny PNG in order to reduce loading time.
 
 <br>
 
-### Wireframes
+## Wireframes
 
 The wireframes for this project were created by hand on the Ipad in Procreate.
 
@@ -139,25 +139,25 @@ The wireframes for this project were created by hand on the Ipad in Procreate.
 
 <br>
 
-### Facilities desktop Wireframe
+### Facilities page desktop Wireframe
 
 <kbd><img src="assets/read-me-images/Facilitiespagedesktop.png"  width="500"></kbd>
 
 <br>
 
-### Contact Page Wireframe
+### Contact Page desktop Wireframe
 
 <kbd><img src="assets/read-me-images/Contactpagedesktop.png"  width="500"></kbd>
 
 <br>
 
-### Thank you desktop wireframe
+### Thank you page desktop wireframe
 
 <kbd><img src="assets/read-me-images/Thankyoudesktop.png"  width="500"></kbd>
 
 <br>
 
-### Ipad Wireframes
+### Tablet Wireframes
 
 <kbd><img src="assets/read-me-images/Tablet.png"  width="500"></kbd>
 
@@ -171,15 +171,15 @@ The wireframes for this project were created by hand on the Ipad in Procreate.
 
 ## Page Features
 
-The website consists of a three accessible pages (home, facilities, contact) and a seperate thank you page that appears after the user has submitted a message via the contact form.
+The website consists of a three accessible pages (home, facilities, contact) and also a seperate thank you page that appears after the user has submitted a message via the contact form.
 
-All pages contain a navigation bar with a menu and text logo and a footer containing links to the social media icons and copyright text. All the buttons on the site become hightlighted in a slightly lighter colour when the user hovers over the button to encourage them to click.
+All pages contain a navigation bar with a navigation menu, logo and a footer containing links to the social media icons and copyright text. All the buttons on the site become highlighted in a slightly lighter colour when the user hovers over the button to encourage them to click.
 
 <br>
 
 ### Logo and navigation menu
 
-The logo contains the business name in their brand colours which acts as a link to the home page when clicked.  The navigation menu is a linear structure across the top of the page.  The active page is hightlighted in bold text and in a different colour to the other links.
+The logo contains the business name in their brand colours which acts as a link to the home page when clicked.  The navigation menu is a linear structure across the top of the page.  The active page is highlighted in bold text and in a different colour to the other links.
 
 <br>
 
@@ -191,12 +191,12 @@ The logo contains the business name in their brand colours which acts as a link 
 
 | Smaller Devices                                |                                      |
 |------------------------------------------------|--------------------------------------|
-|<img src="assets/read-me-images/hamburger-menu.png"  width="300">|On smaller devices such as an ipad or mobile menu then condenses down into a hamburger dropdown menu.|
+|<img src="assets/read-me-images/hamburger-menu.png"  width="300">|On smaller devices such as an ipad or mobile the menu condenses down into a hamburger dropdown menu.|
 </div>
 
 <br>
 
-The footer contains icons which link to the social media accouts of the business and once clicked open in a serperate window.
+The footer contains icons which link to the social media accounts of the business and once clicked they open in a serperate window.
 
 <br>
 
@@ -216,7 +216,7 @@ The front page has a landscape hero image leading into an about section.
 <br>
 <br>
 
-Underneath the hero image there is an about section with an image to left. The text explains a bit about the livery stables and who runs it and has a call to action button allowing the user to jump straight to the livery section on the facilities page. The page layout becomes stacked when viewed on smaller devices and the about image is hidden. 
+Underneath the hero image there is an about section with an image to left. The text explains a bit about the livery stables and who runs it and has a call to action button allowing the user to jump straight to the livery section on the facilities page. The page layout becomes stacked when viewed on devices smaller than a desktop and the about image becomes hidden on mobiles. 
 
 <br>
 
@@ -225,7 +225,7 @@ Underneath the hero image there is an about section with an image to left. The t
 <br>
 <br>
 
-The next section on this page is a full length banner in list format which highlights the services that the stables provide. The final section on the front page is brief introduction to the different facilities at the yard such as the the riding facilities, tack room etc.  The text is accompanied by an image of the indoor school and the clear button linking the user to the facilites page to find out more. 
+The next section on this page is a full length banner in a list format which highlights the services that the stables provide. The final section on the front page is a brief introduction to the different facilities at the yard such as the the riding facilities, tack room etc.  The text is accompanied by an image and button linking the user to the facilites page to find out more. 
 
 <br>
 
@@ -236,7 +236,7 @@ The next section on this page is a full length banner in list format which highl
 
 ### Facilities page
 
-When the user arrives on the facilities page they are greeted by a large clear image of the stable layout inside and a bullet list of the facilities.  
+When the user arrives on the facilities page they are greeted by an image some horses in the stables and a bullet list of the facilities.  
 
 <br>
 
@@ -245,7 +245,7 @@ When the user arrives on the facilities page they are greeted by a large clear i
 <br>
 <br>
 
-Below this section are three titled images showing the tackroom, indoor arena and hacking available.
+Below this section are three titled images showing the outdoor sand school, indoor arena and hacking available.
 
 <br>
 
@@ -265,7 +265,7 @@ The final section on the facilities page contains three columns in an easy to re
 
 ### Contact page
 
-The final page that is available to the user directly is the contact page.  This has the title of the page and a sentence suggesting the user contacts the stables if they have any questions.  This is in a banner style with the background colour the same as the footer on the page.  The main body of the page has a slightly transparent background image to provide a bit of interest to the page.  On top of this image are two card columns.  The first column contains a contact form with clear labels for the users first name, surname, email and a text box to add a message.  The user must enter something in each box of the form in order to be able to send the message using the submit button.  
+The final page that is available to the user directly is the contact page.  This has a title banner in the same colour as the footer for consistency.  The main body of the page has a slightly transparent background image to provide a bit of interest.  On top of this image are two card columns.  The first column contains a contact form with clear labels for the users first name, surname, email and a text box to add a message.  The user must enter something in each box of the form in order to be able to send the message using the submit button.  
 
 <br>
 
@@ -274,9 +274,9 @@ The final page that is available to the user directly is the contact page.  This
 <br>
 <br>
 
-In order to check that the form was working and the information that was entered was captured correctly, I connected the form to Code Institute from dump using the link that was provided in the love running project (as seen in the screen shots).  Then removed the link and replaced it with a link to the Thankyou page and then changed the method from post to get.  Below are the screen shots of the code used to send the form details and the captured details.  
+In order to check that the form was working and the information that was entered was captured correctly, I connected the form to Code Institute from dump using the link that was provided in the love running project (as seen in the screen shots).  Once the form had been tested the link was then removed and replaced with a new link connecting to the Thankyou page.  Below are the screen shots of the code used to send the form details and the captured details.  
 
-In the second column of the Contact page there is similarly styled card to the contact form that contains the contact details of the stables, the address, telephone and email address.  Alongside the contact details are icons to represent the type of contact i.e a home icon for the address.    On smaller devices the columms become stacked and the icons alongside the contact details is hidden.
+In the second column of the Contact page there is similarly styled card to the contact form.  This card contains the contact details of the stables, the address, telephone and email address.  Alongside the contact details are icons to represent the type of contact i.e a home icon for the address. On smaller devices the columms become stacked and the icons alongside the contact details become hidden.
 
 <br>
 
@@ -295,9 +295,7 @@ In the second column of the Contact page there is similarly styled card to the c
 
 ### Thank you page
 
-The thank you page only becomes accessible once you have submitted a message (I removed the post link to send the submitted data to the form dump and replaced it with get and the link to the thank you page).  
-
-The page has the same header and footer as the other pages and the same colour scheme.  The page is based on the contact page with the same background image and box layout.  The card-box contains a smiley face icon and some text thanking the user for sending a message and explaining expected timeframe the stables will get back to them.  It also contains a return to home button to take the user back to the home page should they wish.  Though they are able to access the other pages also with the navigation menu at the top.
+The thank you page only becomes accessible once you have submitted a message.  The page has the same header and footer as the other pages and the same colour scheme.  The page is based on the contact page with the same background image and box layout.  The card-box contains a smiley face icon, some text thanking the user for sending a message and stating a response timeframe.  It also contains a 'return home' button to take the user back to the home page should they wish.  Though are also able to access the other pages also with the navigation menu at the top.
 
 <br>
 
@@ -306,13 +304,13 @@ The page has the same header and footer as the other pages and the same colour s
 <br>
 <br>
 
-## Accessibility testing
+## Accessibility
 
-In order to make the site as accessible as possible I used the [w3c guidelines](https://www.w3.org/WAI/test-evaluate/preliminary/). 
+In order to make the site as accessible as possible I followed the [w3c guidelines](https://www.w3.org/WAI/test-evaluate/preliminary/). 
 
-* The font families and font size were chosen for their easy readability.
+* The font families and font size were chosen for their readability.
 
-* Colours for the backgrounds and the text where chosen to give as much contrast as possible for users to be able to see the text clearly.  During testing using [Wave](https://wave.webaim.org/) some of the text flagged as having slight contrast issues so changes were made to improve this (discussed in [testing](#testing) below).
+* Colours for the backgrounds and the text where chosen to give as much contrast as possible for users to be able to see the text clearly.  During testing using [Wave](https://wave.webaim.org/) some of the text was flagged as having slight contrast issues so changes were made to improve this (discussed in [testing](#testing) below).
 
 * Alt tags with clear descriptive text were given to each of the images on the site.
 
@@ -329,9 +327,9 @@ Future additions that could be added to the site:-
 
 * A gallery with more photos showcasing the stables, maybe the staff and some of the horses.  
 
-* A social media feed somewhere on the site so users can see some up-to-date content and to give a bit of interest to the site as the information is quite static on the site.
+* A social media feed somewhere on the site so users can see some up-to-date content and to give a bit of extra interest to the site.
 
-* A navigation menu and contact details in the footer.  As the some of the pages have a bit of scrolling, the user can then click on a nav link at the bottom rather than scroll back up to the top which is currently the case.
+* A navigation menu and contact details in the footer.  As some of the pages have a bit of scrolling, the user can then click on a nav link at the bottom rather than scroll back up to the top which is currently the case.
 
 * An events page that can be changed regularly to show the up and coming events at the yard and their details.
 
@@ -370,7 +368,7 @@ Tiny PNG - compression of images
 
 W3C Markup Validation - to test HTML code
 
-W3C Jigsaw - to check CSS code
+W3C Jigsaw - to test CSS code
 
 Wave by Webaim - Used to check the accessibility of the site
 
@@ -381,11 +379,11 @@ Wave by Webaim - Used to check the accessibility of the site
 
 <br>
 
-## Accessibility
+## Accessibility Testing
 
-In order to test the accessibility of the site I ran the pages through [Wave](https://wave.webaim.org/) to see if it highlighted any issues.
+In order to test the accessibility of the site I ran the pages through [Wave](https://wave.webaim.org/) to see if there were any issues.
 
-Below shows the some of the things it flagged during the test.  As you can see from the first screenshot below Wave flagged that the active navigation button (screenshot 1) and the text on the contact page under the heading (screenshot 3) did not have enough contrast against the background. I changed this to same colour as the livery stables text as it was slightly darker.  
+Below shows the some of the things it flagged during the test.  As you can see from the first screenshot below Wave flagged that the active navigation button (screenshot 1) and the text on the contact page under the heading (screenshot 3) did not have enough contrast against the background. I changed this to same colour as the livery stables text which was a slightly darker shade.  
   
 On the facilities and contact page (screenshot 2) it suggested that the home link in the navigation menu should be different as they were the same as the the logo link.  However this is how it was intended to be so no changes were made.  Below is the results for each page after the changes were made (screenshot 4, 5, 6).
 
@@ -423,7 +421,7 @@ To test that the site is responsive on a wide range of sizes I used Google Dev T
 
 ### Contact page
 
-The layout of contact page on tablet sized device (<768px) remains the same column layout as the desktop however the services layout becomes a two column list not four.   On a mobile devices (<425px) the image on the left of the about page is hidden, the list of services becomes a one column list and the image alongside the facilities section moves down to underneath the text and becomes full width.
+The layout of contact page on tablet sized device (<768px) remains the same column layout as the desktop apart from the services layout becomes a two column list not four.   On a mobile devices (<425px) the image on the left of the about page is hidden, the list of services becomes a one column list and the image alongside the facilities section moves down underneath the text and becomes full width.
 
 <br>
 
@@ -464,7 +462,7 @@ The layout of contact page on tablet sized device (<768px) remains the same colu
 <br>
 <br>
 
-The table below contains responsiveness results for some of the devices you are offered on Google Dev Tools.
+The table below contains responsiveness results for some of the standard devices in the Google Dev Tools options.
 
 |Responsiveness|Iphone SE (375px)|Samsung Galaxy S8 (360px)|Ipad Mini (768)|Surface Pro 7 (912px)|Galaxy Fold (280px)|Nest Hub (1024px)|Notes               |
 |--------------|-----------------|-------------------------|---------------|---------------------|-------------------|-----------------|--------------------|
@@ -479,7 +477,7 @@ The table below contains responsiveness results for some of the devices you are 
 
 ## Browser Compatibility
 
-I tested all of the website pages in three browsers to check that everything worked, the layout and appearance remained as it should.  The three browsers I chose were the three I had easy access to on my Apple Macbook, Google Chrome, Firefox and Safari.  Everything worked as it should in Chrome and Firefox however in Safari the navigation menu was left aligned on devices larger than tablet size rather than right aligned as intended.  I am not sure if this was due to Safari being an old version and not up to date. (The operating system on my mac doesnt allow for update).
+I tested all of the website pages in three different browsers to check that everything worked, the layout and appearance remained as it should.  The three browsers I chose were the three I had easy access to on my Apple Macbook, Google Chrome, Firefox and Safari.  Everything worked as it should in Chrome and Firefox however in Safari the navigation menu was left aligned on devices larger than tablet size rather than right aligned as intended.  I am not sure if this was due to Safari being an old version and not up to date. (The operating system on my mac doesnt allow for update).
 
 |   |Google Chrome|Firefox|Safari|Notes |
 |---|-------------|-------|------|------|
@@ -533,7 +531,7 @@ For this section I manually tested every feature on every page to ensure all the
 
 ## Lighthouse
 
-As part of the testing I used Lighthouse in Google Chrome to test the performance, accessibility, best practices and SEO.  I tested both on desktop and on mobile.  Lighthouse rated the website on both desktop and mobile as really good.  On both the desktop and mobile it scored 100% in accessibility and SEO and 92% best practises.  For performance its scored the site on desktop as 97% and the mobile a tiny bit better at 99%.  Below are screenshots of the results from the lighthouse panel.
+As part of the testing I used Lighthouse in Google Chrome to test the performance, accessibility, best practices and SEO.  I tested both the desktop and the mobile version.  Lighthouse rated the website on both desktop and mobile as really good.  On both the desktop and mobile it scored 100% in accessibility and SEO and 92% in best practises.  For performance, the site on desktop scored  97% and the mobile 99%.  Below are screenshots of the results from the lighthouse panel.
 
 <br>
 
@@ -545,11 +543,11 @@ As part of the testing I used Lighthouse in Google Chrome to test the performanc
 
 ## W3C Validator
 
-The HTML code from each page on the site was copied into the validator to check it.  On the home page it hightlighted that the first 'section' would be better off as a div as it did not contain a heading.  I changed it on this page and the others before I took a screenshot of the validator screen.  So I only have a screenshot of the code results after it had been changed.
+The HTML code from each page on the site was copied into the validator to check it.  On the home page it highlighted that the first 'section' would be better off as a div as it did not contain a heading.  I changed it on this page and the others before I took a screenshot of the validator screen.  So unfortunately I only have a screenshot of the code results after it had been changed.
 
-The Facilities page showed that there was an issue with two of the 'p' tags in the card columns.  When I checked the code the closing 'p' tags were in the wrong place.
+The Facilities page showed that there was an issue with two of the 'p' tags in the card columns.  When I checked the code the closing 'p' tags were in the wrong place. I remembered to take a screen shot of the initial result this time before the changes were made.
 
-On the Contact page I had used a unordered list for the contact address, email and telephone number with 'br' in to create space.  It highlighted that breaks should not be used in a unordered list so I removed the list format all together and reaplaced them with the 'address' tag and 'br' for the space I needed to get the ions level.
+On the Contact page I had used a unordered list for the contact address, email and telephone number using 'br' to create space.  It highlighted that breaks should not be used in a unordered list so I removed the list format all together and replaced them with the 'address' tag and 'br' for the space I needed in order to get the ions level.  If there was more time an better alternative could be looked at.
 
 The Thank you page went through the validator without any changes needed.
 
@@ -606,17 +604,17 @@ To check the CSS code I copied and pasted the code into the w3c css validator.  
 
 # Bugs
 
-I have been testing throughout the build using Google dev tools.
+I have been testing throughout the build using Google dev tools and fixing problems as they arised.
 
-Layout issue with the navigation menu in SAFARI browser.  Unable to check if this is just because the version is old or if it is on newer updated versions because my macbook os system cannot be upgraded.
+There was a Layout issue with the navigation menu in SAFARI browser.  I was unable to check if this is just because the version is old or if the bug is there on newer updated versions because the macbook os system being used cannot be upgraded.
 
-Text contrast issues with the nav menu when tested with Wave.  The colour was adjusted slightly to give it more contrast.  Wave also highlighted that the home link in the logo and nav bar were next to eachother and therefore could cause confusion to a screen reader.  However I didnt not change this as I wanted the nav link to be visible aswell as have the option to go home if you click on the logo.
+There were text contrast issues with the nav menu when tested with Wave.  The colour was adjusted slightly to give it more contrast.  Wave also highlighted that the home link in the logo and nav bar were next to each other and therefore could cause confusion to a screen reader.  However I did not change this as I wanted the nav link to be visible aswell as have the option to return to the home page if you click on the logo.
 
 Responsiveness - the hamburger menu alignment on very small screens 280px (ie galaxy fold) and the contact button on this size device also were not aligned as suppposed to be.  I did not change this due to time constraints.
 
 Lighthouse highlighted that the images on home page could have been sized smaller.  The images were resized in Photoshop and then reloaded on to site before running Lighthouse again.
 
-There was a problem with the code used in the contact card (used an unordered list and breaks together. Unordered list was removed and replaced with different code this then created a bug with the responsiveness of that section. The layout was not as was expected on small devices.  It was corrected by changing column widths, paddings etc.
+There was a problem with the code used in the contact card (used an unordered list and breaks together. Unordered list was removed and replaced with different code.  This then created a bug with the responsiveness of that section. The layout was not as was expected on small devices.  It was corrected by changing column widths, paddings etc.
 
 <br>
 <br>
@@ -638,7 +636,7 @@ To deploy the site:-
 6.  Make sure the Deploy from a branch is selected in the Source box
 7.  In the Branch dropdown menu select Main and root and then save.
 
-You will then see a notication at the top of the page to say that the site is live and a link to visit the site.  This may take a few minutes, if no link refresh the page.
+You will then see a notification at the top of the page to say that the site is live and a link to visit the site.  This may take a few minutes.
 
 <br>
 
@@ -695,7 +693,7 @@ Box shadows - https://www.w3schools.com/css/css3_shadows_box.asp
 
 Am I responsive - (https://ui.dev/amiresponsive)
 
-Colour palette - (https://coolors.co/22292f-035746-caa59b-fcf8cf)
+Colour palette generator - coolors - (https://coolors.co/22292f-035746-caa59b-fcf8cf)
 
 <br>
 
@@ -733,7 +731,7 @@ w3c accessibility guidelines checklist - https://www.w3.org/WAI/test-evaluate/pr
 
 My mentor Elaine Roche for answering all my questions.
 Student support and Iris the cohort facilitator for checking in on me and encouraging me to keep going when I was 6 weeks behind schedule due to work commitments.  
-Tutor support for giving me advice on how to use Github when I first started
+Tutor support for giving me advice on how to use Github when I first started.
 
 <br>
 
